@@ -1,0 +1,987 @@
+html, body {
+    border: 0;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+input[type=text]:focus, input[type=email]:focus, textarea:focus {
+    outline-color: rgb(172, 227, 204);
+}
+
+a {
+    text-decoration:none;
+    color: #FFFFFF;
+}
+
+/* AGENDA BTN */
+#btn_agenda {
+    font-family: open-sans;
+    width:  250px;
+    height: 250px;
+    background-color: rgba(0,20,20, 0.50);
+    position: absolute;
+    z-index: 1;
+    border-radius: 125px;
+    bottom: -50px;
+    left: -50px;
+    color: #ffffff;
+    font-weight: 600;
+    text-align: center;
+    font-size: 25px;
+    border: 2px solid rgba(255,255,255, 1);
+    text-transform: uppercase;
+}
+
+#btn_agenda h1 {
+    display: block;
+    margin-top: 90px;
+}
+
+#btn_agenda #dl {
+    position: inherit;
+    width: 20px;
+    height: 20px;
+    border-radius: 11px;
+    background: rgba(255,255,255,1);
+    border: 2px solid rgba(255,255,255, 1);
+    right: 20px;
+    top: 0;
+    cursor: pointer;
+    background-position: center;
+    background-size: 80%;
+    background-repeat: no-repeat;
+    box-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+}
+
+#btn_agenda #shop {
+    position: inherit;
+    width: 20px;
+    height: 20px;
+    border-radius: 11px;
+    background: rgba(255,255,255,1);
+    border: 2px solid rgba(255,255,255, 1);
+    right: -25px;
+    top: 60px;
+    cursor: pointer;
+    box-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+}
+
+#btn_agenda #dl:hover,
+#btn_agenda #shop:hover {
+        background: rgba(0,20,20, 1);
+        border: 2px solid rgba(255,255,255, 1);
+    box-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+}
+#btn_agenda #dl:hover {
+    background-position: center;
+    background-size: 80%;
+    background-repeat: no-repeat;
+    box-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+}
+
+#btn_agenda #goto {
+    visibility: hidden;
+    font-family: open-sans;
+    font-size: 14px;
+    font-weight: 400;
+    position: inherit;
+    right: -120px;
+    top: 65px;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+}
+
+#btn_agenda #down {
+    visibility: hidden;
+    font-family: open-sans;
+    font-size: 14px;
+    font-weight: 400;
+    position: inherit;
+    right: -150px;
+    top: 6px;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+}
+
+#dl:hover ~ #down{
+    visibility: visible;
+}
+#shop:hover ~ #goto {
+    visibility: visible;
+}
+
+
+/*MAILFORM*/
+
+#attachholder {
+    background-image: url('../img/ico/attach.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    position: inherit;
+    margin-left: 190px;
+    margin-bottom: -40px;
+    height: 40px;
+    width: 40px;
+    cursor:pointer;
+    border-radius: 5px;
+}
+#attach {
+    background-image: url('../img/ico/attach.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: inherit;
+    float: right;
+    height: 40px;
+    width: 40px;
+    cursor:pointer;
+    border-radius: 5px;
+}
+#attachholder:hover {
+    background-image: url('../img/ico/attach_hov.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    cursor:pointer;
+}
+
+input#attach {
+    top:30px;
+    -moz-opacity:0 ;
+    filter:alpha(opacity: 0);
+    opacity: 0;
+ }
+
+
+
+
+/* FOOTER  */
+#footer {
+    position: absolute;
+    width:50px;
+    height: 50px;
+    bottom: 45px;
+    right: 45px;
+    font-family: open-sans;
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.50);
+    text-align: left;
+    overflow: hidden;
+    background-image:url(../img/ico/lannoo.png);
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size:100%;
+    cursor: pointer;
+    cursor: hand;
+    z-index: 99;
+}
+#footer p {
+    margin-top: 100px;
+}
+#contact {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    height:30px;
+    background-color: rgba(0, 0, 0, 0.5);
+    font-family: open-sans;
+    font-size: 10px;
+    line-height: 20px;
+    font-weight: normal;
+    color: rgba(255, 255, 255, 1);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    z-index: 2;
+}
+#contact p {
+    margin-top: 5px;
+}
+#contact b {
+    font-weight:800;
+}
+
+/* Large screens ----------- */
+@media only screen and (min-width : 1367px) {
+
+    #home {
+        position:absolute;
+        width: 70px;
+        height: 80px;
+        display: none;
+        margin-left: 20px;
+        margin-right: 20px;
+        background-color: rgba(146, 186, 170, 1.0);
+        background-image: url(../img/ico/home_soft.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-origin:padding-box;
+        background-size: 80%;
+        padding-bottom: 50px;
+        margin-top: 77px;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+        box-shadow:2px 2px 5px rgba(0, 0, 0, 0.5);
+        -moz-box-shadow:2px 2px 5px rgba(0, 0, 0, 0.5);
+        opacity: 0.5;
+    }
+    #home:hover {
+        opacity: 1;
+        cursor: pointer;
+        cursor: hand;
+    }
+
+
+    /* CONTENT  */
+
+    #content {
+        z-index: 1;
+        float:left;
+        margin-left: 10%;
+        margin-top: 12%;
+        background-color: rgba(255, 255, 255, 0.85);
+        width:450px;
+        min-height: 350px;
+        border-radius: 15px;
+        border: 1px solid #FFF;
+        box-shadow:2px 2px 5px rgba(0, 0, 0, 0.5);
+        padding: 25px;
+        text-align: left;
+    }
+
+    #content h1{
+        font-family: open-sans;
+        font-weight: 800;
+        color: rgba(0, 0, 0, 0.50);
+        font-size:35px;
+        min-height: 60px;
+        border-bottom: 1px dotted rgba(0, 0, 0, 0.3);
+        margin-bottom: 25px;
+        padding-bottom: 10px;
+    }
+    #content h2{
+        font-family: open-sans;
+        font-weight: 600;
+        color: rgba(0, 0, 0, 0.50);
+        font-size:15px;
+        font-style: italic;
+        min-height: 20px;
+        border-bottom: 1px dotted rgba(0, 0, 0, 0.3);
+        margin-bottom: 25px;
+        padding-bottom: 5px;
+    }
+
+    #content p{
+        font-family: open-sans;
+        color: rgba(0, 0, 0, 0.50);
+        font-size:15px;
+        line-height:25px;
+        margin-bottom: 30px;
+    }
+
+    #content p b{
+        font-family: open-sans;
+        color: rgba(0, 0, 0, 0.50);
+        font-size:15px;
+        line-height:25px;
+        margin-bottom: 30px;
+        font-weight:800;
+    }
+    #content a{
+        text-decoration:none ;
+        color: rgb(146, 186, 170);
+    }
+
+
+    /* MAILFORM */
+
+    #mailform {
+        overflow:hidden;
+        float:left;
+        margin-left:35px;
+        margin-top: 12%;
+        background-image: url(../img/ico/mail_wit.png);
+        background-position:center;
+        background-repeat:no-repeat;
+        background-size: 60%;
+        width:20px;
+        height:10px;
+        padding: 25px;
+    }
+
+
+    #mailform:hover {
+        background-size: 0%;
+        float:left;
+        margin-left:35px;
+        margin-top: 12%;
+        background-color: rgba(255, 255, 255, 0.8);
+        width:230px;
+        height:380px;
+        border-radius: 15px;
+        border: 1px solid #FFF;
+        box-shadow:2px 2px 5px rgba(0, 0, 0, 0.5);
+        padding: 10px;
+        text-align:left;
+        cursor: pointer;
+        cursor: hand;
+    }
+
+
+    #mailform label,
+    #mailform #bericht {
+        display: block;
+        color: rgba(0, 0, 0, 0.50);
+        font-family: open-sans;
+        font-size:12px;
+        line-height:25px;
+        font-weight:800;
+    }
+
+    #mailform #lnaam {
+        margin-top: 30px;
+    }
+
+
+
+    #mailform #naam,
+    #mailform #email,
+    #mailform #adres,
+    #mailform textarea {
+        width: 220px;
+        height: 15px;
+        font-family: open-sans;
+        font-size:12px;
+        background-color: rgba(0, 0, 0, 0.1);
+        color: rgba(0, 0, 0, 0.50);
+        border-radius: 3px;
+        border: 0px;
+        padding: 5px;
+        margin-bottom: 10px;
+        box-shadow:inset 0 0 5px rgba(31, 29, 1, 0.3);
+        -moz-box-shadow:inset 0 0 5px rgba(31, 29, 1, 0.3);
+    }
+
+    #mailform textarea {
+        height: 75px;
+        }
+
+
+    ::-webkit-input-placeholder { /* WebKit browsers */
+        color: rgba(0, 0, 0, 0.20);
+    }
+    :-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+        color: rgba(0, 0, 0, 0.20);
+    }
+    ::-moz-placeholder { /* Mozilla Firefox 19+ */
+        color: rgba(0, 0, 0, 0.20);
+    }
+    :-ms-input-placeholder { /* Internet Explorer 10+ */
+        color: rgba(0, 0, 0, 0.20);
+    }
+
+
+    /*  BTN  */
+
+    .submit-button {
+        background-color: rgb(119, 186, 158);
+        display: block;
+        margin-right: 20px;
+        margin-top: 3px;
+        font-family : open-sans;
+        float:left;
+        font-size: 12px;
+        color: #FFF;
+        width:45%;
+        height: 30px;
+        font-weight: 600;
+        border:none;
+        border-radius: 5px;
+        box-shadow: 0 0 3px rgba(31, 29, 1, 0.6);
+        -moz-box-shadow: 0 0 3px rgba(31, 29, 1, 0.36);
+    }
+
+
+    input.btnsubmit {
+        background-color: rgb(119, 186, 158);
+        display: block;
+        margin-top: 3px;
+        font-family : open-sans;
+        float:left;
+        font-size: 12px;
+        color: #fff;
+        width:45%;
+        height: 30px;
+        font-weight: 600;
+        border:none;
+        border-radius: 5px;
+        box-shadow:inset 0 0 5px #1c3b05;
+        box-shadow:inset 0 0 10px rgba(31, 29, 1, 0.8);
+        -moz-box-shadow:inset 0 0 10px rgba(31, 29, 1, 0.8);
+    }
+
+    .clear-button {
+        background-color: rgba(31, 29, 1, 0.3);
+        display: block;
+        height: 30px;
+        margin-top: 3px;
+        font-family : open-sans;
+        float:right;
+        font-size: 12px;
+        color: #FFF;
+        width:45%;
+        font-weight: 600;
+        border:none;
+        border-radius: 5px;
+        box-shadow: 0 0 3px rgba(31, 29, 1, 0.6);
+        -moz-box-shadow: 0 0 3px rgba(31, 29, 1, 0.36);
+    }
+
+    .clear-button:hover {
+        background-color: rgba(31, 29, 1, 0.3);
+        display: block;
+        height: 30px;
+        margin-top: 3px;
+        margin-right: 0px;
+        font-family : open-sans;
+        float:right;
+        font-size: 12px;
+        color: #fff;
+        width:45%;
+        font-weight: 600;
+        border:none;
+        border-radius: 5px;
+        box-shadow:inset 0 0 5px #1c3b05;
+        box-shadow:inset 0 0 10px rgba(31, 29, 1, 0.8);
+        -moz-box-shadow:inset 0 0 10px rgba(31, 29, 1, 0.8);
+        cursor: pointer;
+        cursor: hand;
+    }
+
+
+
+}
+
+/* Desktops and laptops ----------- */
+@media only screen and (min-width : 1025px) and (max-width : 1366px){
+
+
+    #home {
+        position:absolute;
+        width: 60px;
+        height: 60px;
+        display: none;
+        margin-left: 20px;
+        margin-right: 20px;
+        background-color: rgba(146, 186, 170, 1.0);
+        background-image: url(../img/ico/home_soft.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-origin:padding-box;
+        background-size: 80%;
+        padding-bottom: 50px;
+        margin-top: 77px;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+        box-shadow:2px 2px 5px rgba(0, 0, 0, 0.5);
+        -moz-box-shadow:2px 2px 5px rgba(0, 0, 0, 0.5);
+        opacity: 0.5;
+    }
+    #home:hover {
+        opacity: 1;
+        cursor: pointer;
+        cursor: hand;
+    }
+
+    #content {
+        z-index: 1;
+        float:left;
+        margin-left: 10%;
+        margin-top: 10%;
+        background-color: rgba(255, 255, 255, 0.85);
+        width:330px;
+        min-height: 280px;
+        border-radius: 10px;
+        border: 1px solid #FFF;
+        box-shadow:2px 2px 5px rgba(0, 0, 0, 0.5);
+        padding: 25px;
+        text-align: left;
+    }
+
+    #content h1{
+        font-family: open-sans;
+        font-weight: 800;
+        font-size:25px;
+        min-height: 35px;
+        border-bottom: 1px dotted rgba(0, 0, 0, 0.3);
+        margin-bottom: 20px;
+        padding-bottom: 20px;
+    }
+
+    #content p{
+        font-family: open-sans;
+        color: rgba(0, 0, 0, 0.50);
+        font-size:12px;
+        line-height:20px;
+        margin-bottom: 20px;
+    }
+
+    #content p b{
+        font-family: open-sans;
+        color: rgba(0, 0, 0, 0.50);
+        font-size:12px;
+        line-height:20px;
+        margin-bottom: 20px;
+        font-weight:800;
+    }
+    #content p a{
+        color: rgb(146, 186, 170);
+        text-decoration:none ;
+    }
+    #content p a:hover{
+        color: rgb(146, 186, 170);
+        text-decoration:none ;
+    }
+
+    /* MAILFORM */
+
+    #mailform {
+        overflow:hidden;
+        float:left;
+        margin-left:15px;
+        margin-top: 10.5%;
+        background-image: url(../img/ico/mail_wit.png);
+        background-position:center;
+        background-repeat:no-repeat;
+        background-size: 90%;
+        width:10px;
+        height:8px;
+        padding: 12px;
+    }
+
+    #mailform:hover {
+        background-size: 0%;
+        background-color: rgba(255, 255, 255, 0.8);
+        width:180px;
+        height:320px;
+        border-radius: 10px;
+        border: 1px solid #FFF;
+        box-shadow:2px 2px 5px rgba(0, 0, 0, 0.5);
+        padding: 10px;
+        text-align:left;
+        cursor: pointer;
+        cursor: hand;
+    }
+
+
+    #mailform label,
+    #mailform #bericht    {
+        display: block;
+        color: rgba(0, 0, 0, 0.50);
+        font-family: open-sans;
+        font-size:12px;
+        line-height:15px;
+        font-weight:800;
+    }
+
+    #mailform #lnaam {
+        margin-top: 17px;
+    }
+
+
+    #mailform #naam,
+    #mailform #email,
+    #mailform #adres {
+        width: 164px;
+        height: 10px;
+        font-family: open-sans;
+        font-size:10px;
+        background-color: rgba(0, 0, 0, 0.1);
+        color: rgba(0, 0, 0, 0.50);
+        border-radius: 3px;
+        border: 0px;
+        padding: 5px;
+        margin-bottom: 8px;
+        box-shadow:inset 0 0 5px rgba(31, 29, 1, 0.3);
+        -moz-box-shadow:inset 0 0 5px rgba(31, 29, 1, 0.3);
+
+    }
+
+    #mailform textarea {
+        width: 170px;
+        height:120px;
+        font-family: open-sans;
+        font-size:10px;
+        background-color: rgba(0, 0, 0, 0.1);
+        color: rgba(0, 0, 0, 0.50);
+        border-radius: 3px;
+        border: 0px;
+        padding: 3px;
+        margin-top: -15px;
+        margin-bottom: 10px;
+        box-shadow:inset 0 0 5px rgba(31, 29, 1, 0.3);
+        -moz-box-shadow:inset 0 0 5px rgba(31, 29, 1, 0.3);
+    }
+
+
+    ::-webkit-input-placeholder { /* WebKit browsers */
+        color: rgba(0, 0, 0, 0.20);
+    }
+    :-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+        color: rgba(0, 0, 0, 0.20);
+    }
+    ::-moz-placeholder { /* Mozilla Firefox 19+ */
+        color: rgba(0, 0, 0, 0.20);
+    }
+    :-ms-input-placeholder { /* Internet Explorer 10+ */
+        color: rgba(0, 0, 0, 0.20);
+    }
+
+
+    /*  BTN  */
+
+    .submit-button {
+        background-color: rgb(119, 186, 158);
+        display: block;
+        margin-right: 10px;
+        margin-top: 2px;
+        font-family : open-sans;
+        float:left;
+        font-size: 10px;
+        color: #FFF;
+        width:45%;
+        height: 20px;
+        font-weight: 600;
+        border:none;
+        border-radius: 2px;
+        box-shadow: 0 0 3px rgba(31, 29, 1, 0.6);
+        -moz-box-shadow: 0 0 3px rgba(31, 29, 1, 0.36);
+      cursor: pointer;
+        cursor: hand;
+    }
+
+
+    input.btnsubmit {
+        background-color: rgb(119, 186, 158);
+        display: block;
+        margin-right: 10px;
+        margin-top: 2px;
+        font-family : open-sans;
+        float:left;
+        font-size: 10px;
+        color: #FFF;
+        width:45%;
+        height: 20px;
+        font-weight: 600;
+        border:none;
+        border-radius: 2px;
+        box-shadow:inset 0 0 5px #1c3b05;
+        box-shadow:inset 0 0 10px rgba(31, 29, 1, 0.8);
+        -moz-box-shadow:inset 0 0 10px rgba(31, 29, 1, 0.8);
+    }
+
+    .clear-button {
+        background-color: rgba(31, 29, 1, 0.3);
+        display: block;
+        margin-top: 2px;
+        font-family : open-sans;
+        float:left;
+        font-size: 10px;
+        color: #FFF;
+        width:45%;
+        height: 20px;
+        font-weight: 600;
+        border:none;
+        border-radius: 2px;
+        box-shadow: 0 0 3px rgba(31, 29, 1, 0.6);
+        -moz-box-shadow: 0 0 3px rgba(31, 29, 1, 0.36);
+    }
+
+    .clear-button:hover {
+        background-color: rgba(31, 29, 1, 0.3);
+        display: block;
+        margin-top: 2px;
+        font-family : open-sans;
+        float:left;
+        font-size: 10px;
+        color: #FFF;
+        width:45%;
+        height: 20px;
+        font-weight: 600;
+        border:none;
+        border-radius: 2px;
+        box-shadow:inset 0 0 5px #1c3b05;
+        box-shadow:inset 0 0 10px rgba(31, 29, 1, 0.8);
+        -moz-box-shadow:inset 0 0 10px rgba(31, 29, 1, 0.8);
+        cursor: pointer;
+        cursor: hand;
+    }
+}
+
+/* Desktops and laptops ----------- */
+@media only screen and (min-width : 801px) and (max-width : 1024px){
+    /* Styles */
+
+
+
+    #home {
+        position:absolute;
+        z-index:1000;
+        width: 35px;
+        height: 35px;
+        display: none;
+        margin-left: 20px;
+        margin-right: 20px;
+        background-color: rgba(146, 186, 170, 1.0);
+        background-image: url(../img/ico/home_soft.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-origin:padding-box;
+        background-size: 100%;
+        padding-bottom: 20px;
+        margin-top:62px;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        box-shadow:2px 2px 5px rgba(0, 0, 0, 0.5);
+        -moz-box-shadow:2px 2px 5px rgba(0, 0, 0, 0.5);
+        opacity: 0.5;
+    }
+    #home:hover {
+        opacity: 1;
+        cursor: pointer;
+        cursor: hand;
+    }
+
+    #content {
+        z-index: 1;
+        float:left;
+        margin-left: 10%;
+        margin-top: 10%;
+        background-color: rgba(255, 255, 255, 0.85);
+        width:200px;
+        min-height: 350px;
+        border-radius: 10px;
+        border: 1px solid #FFF;
+        box-shadow:2px 2px 5px rgba(0, 0, 0, 0.5);
+        padding: 25px;
+        text-align: left;
+    }
+
+    #content h1{
+        font-family: open-sans;
+        font-weight: 800;
+        color: rgba(0, 0, 0, 0.50);
+        font-size:25px;
+        min-height: 25px;
+        border-bottom: 1px dotted rgba(0, 0, 0, 0.3);
+        margin-bottom: 20px;
+        padding-bottom: 20px;
+    }
+
+    #content p{
+        font-family: open-sans;
+        color: rgba(0, 0, 0, 0.50);
+        font-size:11px;
+        line-height:18px;
+        margin-bottom: 20px;
+    }
+
+    #content p b{
+        font-family: open-sans;
+        color: rgba(0, 0, 0, 0.50);
+        font-size:11px;
+        line-height:18px;
+        margin-bottom: 20px;
+        font-weight:800;
+        text-decoration: none;
+    }
+
+    #content p a{
+        text-decoration:none ;
+        color: #555;
+    }
+    #content p a:hover{
+        text-decoration: none;
+        color: rgb(146, 186, 170);
+    }
+
+
+    /* MAILFORM */
+
+    #mailform {
+        overflow:hidden;
+        float:left;
+        margin-left:15px;
+        margin-top: 10.5%;
+        background-image: url(../img/ico/mail_wit.png);
+        background-position:center;
+        background-repeat:no-repeat;
+        background-size: 90%;
+        width:10px;
+        height:10px;
+        padding: 12px;
+    }
+
+    #mailform:hover {
+        background-image: url(../img/ico/m.png);
+        background-color: rgba(255, 255, 255, 0.8);
+        width:160px;
+        height:320px;
+        border-radius: 10px;
+        border: 1px solid #FFF;
+        box-shadow:2px 2px 5px rgba(0, 0, 0, 0.5);
+        padding: 10px;
+        text-align:left;
+        cursor: pointer;
+        cursor: hand;
+    }
+
+
+    #mailform label {
+        display: block;
+        color: rgba(0, 0, 0, 0.50);
+        font-family: open-sans;
+        font-size:11px;
+        line-height:18px;
+        font-weight:800;
+    }
+
+    #mailform #lnaam {
+        margin-top: 17px;
+    }
+
+    #mailform #bericht{
+        display: block;
+        color: rgba(0, 0, 0, 0.50);
+        font-family: open-sans;
+        font-size:14px;
+        line-height:25px;
+        font-weight:800;
+    }
+
+    #mailform #naam,
+    #mailform #email,
+    #mailform #adres {
+        width: 150px;
+        height: 12px;
+        font-family: open-sans;
+        font-size:11px;
+        background-color: rgba(0, 0, 0, 0.1);
+        color: rgba(0, 0, 0, 0.50);
+        border-radius: 3px;
+        border: 0px;
+        padding: 5px;
+        margin-bottom: 5px;
+        box-shadow:inset 0 0 5px rgba(31, 29, 1, 0.3);
+        -moz-box-shadow:inset 0 0 5px rgba(31, 29, 1, 0.3);
+
+    }
+
+    #mailform textarea {
+        width: 156px;
+        height: 110px;
+        font-family: open-sans;
+        font-size:11px;
+        background-color: rgba(0, 0, 0, 0.1);
+        color: rgba(0, 0, 0, 0.50);
+        border-radius: 3px;
+        border: 0px;
+        padding: 3px;
+        margin-top: -15px;
+        margin-bottom: 10px;
+        box-shadow:inset 0 0 5px rgba(31, 29, 1, 0.3);
+        -moz-box-shadow:inset 0 0 5px rgba(31, 29, 1, 0.3);
+    }
+
+
+    ::-webkit-input-placeholder { /* WebKit browsers */
+        color: rgba(0, 0, 0, 0.20);
+    }
+    :-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+        color: rgba(0, 0, 0, 0.20);
+    }
+    ::-moz-placeholder { /* Mozilla Firefox 19+ */
+        color: rgba(0, 0, 0, 0.20);
+    }
+    :-ms-input-placeholder { /* Internet Explorer 10+ */
+        color: rgba(0, 0, 0, 0.20);
+    }
+
+
+    /*  BTN  */
+
+    .submit-button {
+        background-color: rgb(119, 186, 158);
+        display: block;
+        margin-right: 10px;
+        margin-top: 0px;
+        font-family : open-sans;
+        float:left;
+        font-size: 10px;
+        color: #FFF;
+        width:45%;
+        height: 20px;
+        font-weight: 600;
+        border:none;
+        border-radius: 3px;
+        box-shadow: 0 0 3px rgba(31, 29, 1, 0.6);
+        -moz-box-shadow: 0 0 3px rgba(31, 29, 1, 0.36);
+    }
+
+
+    input.btnsubmit {
+        background-color: rgb(119, 186, 158);
+        display: block;
+        margin-right: 10px;
+        margin-top: 0px;
+        font-family : open-sans;
+        float:left;
+        font-size: 10px;
+        color: #FFF;
+        width:45%;
+        height: 20px;
+        font-weight: 600;
+        border:none;
+        border-radius: 3px;
+        box-shadow:inset 0 0 5px #1c3b05;
+        box-shadow:inset 0 0 10px rgba(31, 29, 1, 0.8);
+        -moz-box-shadow:inset 0 0 10px rgba(31, 29, 1, 0.8);
+    }
+
+    .clear-button {
+        background-color: rgba(31, 29, 1, 0.3);
+        display: block;
+        display: block;
+        margin-top: 0px;
+        font-family : open-sans;
+        float:left;
+        font-size: 10px;
+        color: #FFF;
+        width:45%;
+        height: 20px;
+        font-weight: 600;
+        border:none;
+        border-radius: 3px;
+        box-shadow: 0 0 3px rgba(31, 29, 1, 0.6);
+        -moz-box-shadow: 0 0 3px rgba(31, 29, 1, 0.36);
+    }
+
+    .clear-button:hover {
+        background-color: rgba(31, 29, 1, 0.3);
+        display: block;
+        margin-top: 0px;
+        font-family : open-sans;
+        float:left;
+        font-size: 10px;
+        color: #FFF;
+        width:45%;
+        height: 20px;
+        font-weight: 600;
+        border:none;
+        border-radius: 3px;
+        box-shadow:inset 0 0 5px #1c3b05;
+        box-shadow:inset 0 0 10px rgba(31, 29, 1, 0.8);
+        -moz-box-shadow:inset 0 0 10px rgba(31, 29, 1, 0.8);
+        cursor: pointer;
+        cursor: hand;
+    }
+}

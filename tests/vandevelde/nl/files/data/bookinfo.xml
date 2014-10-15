@@ -1,0 +1,246 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--Copyright 2011, Trinity Innovations, http://www.3dissue.com-->
+<!--Mac OSX 4294967306.140733193388040.4294967301 Intel-->
+<value000>
+	<value030 value310="60" value700="19032014144630246" value028="1275" value029="1790" value031="1275" value032="1790" value031l="441" value032l="620" value031p="623" value032p="876" optimumDPI="176" value070="68" value071="95" value040="76" value052b="175" value052c="38" value052d="0x000000" value051="" value051c="185" value051d="162" value210="false" value213a="0" value213b="1" value213c="assets/background/background.jpg" value213d="0xbfbfbf" value311="Drukkerij Lannoo" value311b="Van de Velde" value311c="Van de Velde - Annual Report - Jaarverslag" value311d="eyegraphic" value312="English U.K." value313="http://www.eyegraphic.be/vandevelde/library.xml" value201="3" value306="6" value315="80" value300="http://www.vandevelde.eu" value196="false" value332="false" value333="false" value334="true" value172="false" value304="false" value314="false" value202="l2r" value330="1" value329="1" value328="0" value327="1" value034="2" value035="4" value037="0" value038="1" value039="0" value322="5" value171="6" value324="8" value319="3" value301="0" value302="0" value323="0" value320="7" value318="8" value326="true" value195a="true" value195b="false" value195c="false" value195d="false" value195e="false" value195g="true" value195h="false" value170="3" value195ea="0" value173="false" value174="false" value209="false" value052a="0" value051a="2" value325="787878" value331="000000" value309="flip" value318b="thumbnails" value318a="left" value307="disabled" value194="php" value850a="" value850b="Anonymous" value850c="Unknown" value850d="" value850e="" value850f="" value504="60" value505="176" value506="1" value507="1" optimizeIpad="true" value195f="true" value600="0" value601="0" value610="0" value611="0" value503="issue12014nl" value508="http://www.3dissue.com"/>
+	<value002 lang="English U.K." flag="gb">
+		<value759><![CDATA[Click and drag a corner to turn a page]]></value759>
+		<value660><![CDATA[View note]]></value660>
+		<value661><![CDATA[Note]]></value661>
+		<value662><![CDATA[Yes]]></value662>
+		<value663><![CDATA[No]]></value663>
+		<value664><![CDATA[New]]></value664>
+		<value665><![CDATA[Delete]]></value665>
+		<value666><![CDATA[Page]]></value666>
+		<value760><![CDATA[Click and drag to turn page]]></value760>
+		<value667><![CDATA[Add]]></value667>
+		<value761><![CDATA[PAGE THUMBNAILS]]></value761>
+		<value668><![CDATA[Cancel]]></value668>
+		<value762><![CDATA[PAGE BUTTONS]]></value762>
+		<value763><![CDATA[Click on a thumbnail to jump to that page]]></value763>
+		<value669><![CDATA[Are you sure you want to delete these notes?]]></value669>
+		<value764><![CDATA[Enter page number to jump to that page or click on navigation buttons]]></value764>
+		<value765><![CDATA[Would you like to view this in]]></value765>
+		<value766><![CDATA[Select All]]></value766>
+		<value767><![CDATA[Select None]]></value767>
+		<value768><![CDATA[This feature is not available in the Trial version]]></value768>
+		<value670><![CDATA[New note]]></value670>
+		<value671><![CDATA[Bookmark]]></value671>
+		<value672><![CDATA[Are you sure you want to delete these bookmarks?]]></value672>
+		<value673><![CDATA[New bookmark]]></value673>
+		<value674><![CDATA[Share via]]></value674>
+		<value675><![CDATA[Yourself]]></value675>
+		<value676><![CDATA[Friend]]></value676>
+		<value677><![CDATA[Download the offline version?]]></value677>
+		<value678><![CDATA[Slide]]></value678>
+		<value679><![CDATA[Flip]]></value679>
+		<value600><![CDATA[Contents]]></value600>
+		<value601><![CDATA[Print]]></value601>
+		<value602><![CDATA[Download]]></value602>
+		<value603><![CDATA[Search]]></value603>
+		<value680><![CDATA[Pause]]></value680>
+		<value604><![CDATA[Share]]></value604>
+		<value681><![CDATA[Play]]></value681>
+		<value605><![CDATA[Settings]]></value605>
+		<value682><![CDATA[Volume]]></value682>
+		<value606><![CDATA[Thumbnails]]></value606>
+		<value683><![CDATA[Click to play]]></value683>
+		<value607><![CDATA[Archive]]></value607>
+		<value684><![CDATA[Clear Results]]></value684>
+		<value608><![CDATA[Help]]></value608>
+		<value685><![CDATA[Are you sure you want to close the digital magazine?]]></value685>
+		<value609><![CDATA[Exit]]></value609>
+		<value686><![CDATA[Alert]]></value686>
+		<value687><![CDATA[File]]></value687>
+		<value688><![CDATA[could not be found.]]></value688>
+		<value689><![CDATA[Ok]]></value689>
+		<value610><![CDATA[Email:]]></value610>
+		<value611><![CDATA[Web:]]></value611>
+		<value612><![CDATA[Jump to page:]]></value612>
+		<value613><![CDATA[Download file]]></value613>
+		<value690><![CDATA[Warning]]></value690>
+		<value614><![CDATA[Audio clip]]></value614>
+		<value691><![CDATA[Text cannot be entered in fullscreen mode. Would you like to exit fullscreen mode?]]></value691>
+		<value615><![CDATA[Play flash file]]></value615>
+		<value692><![CDATA[Click and drag note to its location.]]></value692>
+		<value616><![CDATA[Play video clip]]></value616>
+		<value693><![CDATA[Paragraph]]></value693>
+		<value617><![CDATA[Leave comment]]></value617>
+		<value694><![CDATA[About Us]]></value694>
+		<value695><![CDATA[3DIssue was designed to ensure that publishers would be able to convert their PDFs to flash magazines without the need of hiring specialist services.]]></value695>
+		<value619><![CDATA[Ready]]></value619>
+		<value620><![CDATA[Complete]]></value620>
+		<value621><![CDATA[Seeking]]></value621>
+		<value622><![CDATA[Email]]></value622>
+		<value623><![CDATA[Your name]]></value623>
+		<value624><![CDATA[Your email Address]]></value624>
+		<value625><![CDATA[Your friend's Name]]></value625>
+		<value626><![CDATA[Your friend's email address]]></value626>
+		<value627><![CDATA[Click here to add message]]></value627>
+		<value628><![CDATA[Submit]]></value628>
+		<value629><![CDATA[Reset]]></value629>
+		<value630><![CDATA[Comment]]></value630>
+		<value632><![CDATA[Enter your name]]></value632>
+		<value633><![CDATA[Your email is not valid]]></value633>
+		<value634><![CDATA[Enter your friend's name]]></value634>
+		<value635><![CDATA[Your friends email is not valid]]></value635>
+		<value636><![CDATA[Submit Error!]]></value636>
+		<value731><![CDATA[This feature is not available in Preview mode]]></value731>
+		<value637><![CDATA[Please wait while sending your message]]></value637>
+		<value732><![CDATA[No page(s) selected to print.]]></value732>
+		<value638><![CDATA[Error occur while sending your message]]></value638>
+		<value733><![CDATA[You must select at least one of the options to email 'yourself' or a 'friend'.]]></value733>
+		<value734><![CDATA[Some information is missing. Please fill in all fields before clicking submit.]]></value734>
+		<value735><![CDATA[Enter the details of your new bookmark below:]]></value735>
+		<value736><![CDATA[No bookmark(s) selected. Please select at least one bookmark before proceeding.]]></value736>
+		<value737><![CDATA[Reached quota limit for bookmark storage. Cannot add any more bookmarks.]]></value737>
+		<value640><![CDATA[Your message is successfully sent!]]></value640>
+		<value641><![CDATA[Search]]></value641>
+		<value642><![CDATA[matches found]]></value642>
+		<value643><![CDATA[No matches found]]></value643>
+		<value644><![CDATA[Page]]></value644>
+		<value645><![CDATA[Print]]></value645>
+		<value646><![CDATA[Print Current]]></value646>
+		<value741><![CDATA[Page Transition]]></value741>
+		<value647><![CDATA[Print Selected]]></value647>
+		<value742><![CDATA[Information]]></value742>
+		<value648><![CDATA[printing pages]]></value648>
+		<value743><![CDATA[Presentation]]></value743>
+		<value744><![CDATA[selected]]></value744>
+		<value745><![CDATA[Bookmark Current Page]]></value745>
+		<value746><![CDATA[This page is already bookmarked]]></value746>
+		<value747><![CDATA[of]]></value747>
+		<value748><![CDATA[Add note]]></value748>
+		<value650><![CDATA[Zoom to double page]]></value650>
+		<value651><![CDATA[Zoom to single page]]></value651>
+		<value652><![CDATA[When zoomed in, navigate by moving the mouse]]></value652>
+		<value653><![CDATA[When zoomed in, navigate by clicking and dragging the pages]]></value653>
+		<value654><![CDATA[Zoom to]]></value654>
+		<value655><![CDATA[browser width]]></value655>
+		<value656><![CDATA[Custom Zoom]]></value656>
+		<value750><![CDATA[NEXT PAGE]]></value750>
+		<value657><![CDATA[Fullscreen]]></value657>
+		<value751><![CDATA[PREVIOUS PAGE]]></value751>
+		<value658><![CDATA[Bookmarks]]></value658>
+		<value752><![CDATA[Click anywhere on a page to zoom.]]></value752>
+		<value659><![CDATA[Notes]]></value659>
+		<value753><![CDATA[Click on]]></value753>
+		<value754><![CDATA[Buttons]]></value754>
+		<value755><![CDATA[Hotspots]]></value755>
+		<value756><![CDATA[for interactive features]]></value756>
+		<value757><![CDATA[and]]></value757>
+		<value758><![CDATA[(Click anywhere to close overly)]]></value758>
+	</value002>
+	<ibuttons>
+		<value01>swf</value01>
+		<value02>swf</value02>
+		<value03>swf</value03>
+		<value04>swf</value04>
+		<value05>swf</value05>
+		<value06>swf</value06>
+		<value07>swf</value07>
+		<value08>swf</value08>
+		<value09>swf</value09>
+		<value10>swf</value10>
+		<value11>swf</value11>
+	</ibuttons>
+	<value001>
+		<value012 value013="hot" value013a="wl" value014="4" value016="171" value017="1092" value018="135" value019="19" value020="www.lannooprint.be" value022="" value023a="0xffffff" value024a="0.50" value023b="0x000000" value024b="0.00" value025a="false" value025b="false"/>
+		<value012 value013="hot" value013a="wl" value014="4" value016="171" value017="1585" value018="135" value019="15" value020="www.vandevelde.eu" value022="" value023a="0xffffff" value024a="0.50" value023b="0x000000" value024b="0.00" value025a="false" value025b="false"/>
+		<value012 value013="hot" value013a="gtp" value014="5" value016="331" value017="497" value018="865" value019="43" value020="7" value022="" value023a="0xffffff" value024a="0.50" value023b="0x000000" value024b="0.00" value025a="false" value025b="false"/>
+		<value012 value013="hot" value013a="gtp" value014="5" value016="331" value017="544" value018="865" value019="43" value020="7" value022="" value023a="0xffffff" value024a="0.50" value023b="0x000000" value024b="0.00" value025a="false" value025b="false"/>
+		<value012 value013="hot" value013a="gtp" value014="5" value016="331" value017="590" value018="865" value019="43" value020="10" value022="" value023a="0xffffff" value024a="0.50" value023b="0x000000" value024b="0.00" value025a="false" value025b="false"/>
+		<value012 value013="hot" value013a="gtp" value014="5" value016="331" value017="684" value018="865" value019="43" value020="15" value022="" value023a="0xffffff" value024a="0.50" value023b="0x000000" value024b="0.00" value025a="false" value025b="false"/>
+		<value012 value013="hot" value013a="gtp" value014="5" value016="331" value017="782" value018="865" value019="45" value020="17" value022="" value023a="0xffffff" value024a="0.50" value023b="0x000000" value024b="0.00" value025a="false" value025b="false"/>
+		<value012 value013="hot" value013a="gtp" value014="5" value016="331" value017="825" value018="865" value019="43" value020="20" value022="" value023a="0xffffff" value024a="0.50" value023b="0x000000" value024b="0.00" value025a="false" value025b="false"/>
+		<value012 value013="hot" value013a="gtp" value014="5" value016="331" value017="871" value018="865" value019="43" value020="24" value022="" value023a="0xffffff" value024a="0.50" value023b="0x000000" value024b="0.00" value025a="false" value025b="false"/>
+		<value012 value013="hot" value013a="gtp" value014="5" value016="331" value017="964" value018="865" value019="43" value020="26" value022="" value023a="0xffffff" value024a="0.50" value023b="0x000000" value024b="0.00" value025a="false" value025b="false"/>
+		<value012 value013="hot" value013a="gtp" value014="5" value016="331" value017="1058" value018="865" value019="43" value020="31" value022="" value023a="0xffffff" value024a="0.50" value023b="0x000000" value024b="0.00" value025a="false" value025b="false"/>
+		<value012 value013="hot" value013a="gtp" value014="5" value016="331" value017="1151" value018="865" value019="43" value020="65" value022="" value023a="0xffffff" value024a="0.50" value023b="0x000000" value024b="0.00" value025a="false" value025b="false"/>
+		<value012 value013="hot" value013a="gtp" value014="5" value016="331" value017="1245" value018="865" value019="43" value020="66" value022="" value023a="0xffffff" value024a="0.50" value023b="0x000000" value024b="0.00" value025a="false" value025b="false"/>
+		<value012 value013="hot" value013a="gtp" value014="5" value016="331" value017="1339" value018="865" value019="43" value020="70" value022="" value023a="0xffffff" value024a="0.50" value023b="0x000000" value024b="0.00" value025a="false" value025b="false"/>
+		<value012 value013="hot" value013a="gtp" value014="5" value016="331" value017="1432" value018="865" value019="43" value020="71" value022="" value023a="0xffffff" value024a="0.50" value023b="0x000000" value024b="0.00" value025a="false" value025b="false"/>
+		<value012 value013="hot" value013a="gtp" value014="5" value016="331" value017="1479" value018="865" value019="43" value020="71" value022="" value023a="0xffffff" value024a="0.50" value023b="0x000000" value024b="0.00" value025a="false" value025b="false"/>
+		<value012 value013="hot" value013a="gtp" value014="5" value016="331" value017="1526" value018="865" value019="43" value020="73" value022="" value023a="0xffffff" value024a="0.50" value023b="0x000000" value024b="0.00" value025a="false" value025b="false"/>
+		<value012 value013="hot" value013a="gtp" value014="5" value016="331" value017="1573" value018="865" value019="43" value020="74" value022="" value023a="0xffffff" value024a="0.50" value023b="0x000000" value024b="0.00" value025a="false" value025b="false"/>
+		<value012 value013="hot" value013a="wl" value014="6" value016="62" value017="60" value018="1152" value019="1668" value020="http://www.mariejo.com" value022="" value023a="0xffffff" value024a="0.00" value023b="0x000000" value024b="0.00" value025a="false" value025b="false"/>
+		<value012 value013="hot" value013a="wl" value014="9" value016="60" value017="60" value018="1156" value019="1674" value020="http://www.mariejo.com/nl/brands/marie-jo-laventure" value022="" value023a="0xffffff" value024a="0.00" value023b="0x000000" value024b="0.00" value025a="false" value025b="false"/>
+		<value012 value013="hot" value013a="wl" value014="11" value016="93" value017="871" value018="1090" value019="773" value020="http://www.myintimacy.com" value022="" value023a="0xffffff" value024a="0.00" value023b="0x000000" value024b="0.00" value025a="false" value025b="false"/>
+		<value012 value013="hot" value013a="wl" value014="12" value016="89" value017="274" value018="535" value019="365" value020="http://www.rigbyandpeller.com" value022="" value023a="0xffffff" value024a="0.00" value023b="0x000000" value024b="0.00" value025a="false" value025b="false"/>
+		<value012 value013="hot" value013a="wl" value014="12" value016="652" value017="278" value018="532" value019="359" value020="http://www.privateshop.com.hk" value022="" value023a="0xffffff" value024a="0.00" value023b="0x000000" value024b="0.00" value025a="false" value025b="false"/>
+		<value012 value013="hot" value013a="wl" value014="13" value016="91" value017="275" value018="1095" value019="741" value020="http://www.lincherie.nl" value022="" value023a="0xffffff" value024a="0.00" value023b="0x000000" value024b="0.00" value025a="false" value025b="false"/>
+		<value012 value013="hot" value013a="wl" value014="14" value016="63" value017="60" value018="1153" value019="1671" value020="http://www.primadonna.eu" value022="" value023a="0xffffff" value024a="0.00" value023b="0x000000" value024b="0.00" value025a="false" value025b="false"/>
+		<value012 value013="hot" value013a="wl" value014="15" value016="978" value017="274" value018="156" value019="19" value020="www.vandevelde.eu" value022="" value023a="0xffffff" value024a="0.50" value023b="0x000000" value024b="0.00" value025a="false" value025b="false"/>
+		<value012 value013="hot" value013a="wl" value014="16" value016="63" value017="58" value018="1148" value019="1671" value020="http://www.primadonna.eu/nl/brands/primadonna-twist" value022="" value023a="0xffffff" value024a="0.00" value023b="0x000000" value024b="0.00" value025a="false" value025b="false"/>
+		<value012 value013="hot" value013a="gtp" value014="27" value016="1030" value017="874" value018="119" value019="16" value020="55" value022="" value023a="0xffffff" value024a="0.00" value023b="0x000000" value024b="0.00" value025a="false" value025b="false"/>
+		<value012 value013="hot" value013a="wl" value014="30" value016="60" value017="60" value018="1149" value019="1666" value020="http://www.primadonna.eu/nl/brands/primadonna-swimwear" value022="" value023a="0xffffff" value024a="0.00" value023b="0x000000" value024b="0.00" value025a="false" value025b="false"/>
+		<value012 value013="hot" value013a="gtp" value014="31" value016="210" value017="262" value018="225" value019="19" value020="32" value022="" value023a="0xffffff" value024a="0.00" value023b="0x000000" value024b="0.00" value025a="false" value025b="false"/>
+		<value012 value013="hot" value013a="gtp" value014="31" value016="209" value017="288" value018="372" value019="27" value020="33" value022="" value023a="0xffffff" value024a="0.00" value023b="0x000000" value024b="0.00" value025a="false" value025b="false"/>
+		<value012 value013="hot" value013a="gtp" value014="31" value016="217" value017="324" value018="364" value019="27" value020="34" value022="" value023a="0xffffff" value024a="0.00" value023b="0x000000" value024b="0.00" value025a="false" value025b="false"/>
+		<value012 value013="hot" value013a="gtp" value014="31" value016="209" value017="356" value018="331" value019="25" value020="35" value022="" value023a="0xffffff" value024a="0.00" value023b="0x000000" value024b="0.00" value025a="false" value025b="false"/>
+		<value012 value013="hot" value013a="gtp" value014="31" value016="209" value017="387" value018="645" value019="92" value020="36" value022="" value023a="0xffffff" value024a="0.00" value023b="0x000000" value024b="0.00" value025a="false" value025b="false"/>
+		<value012 value013="hot" value013a="gtp" value014="31" value016="210" value017="486" value018="159" value019="19" value020="42" value022="" value023a="0xffffff" value024a="0.00" value023b="0x000000" value024b="0.00" value025a="false" value025b="false"/>
+		<value012 value013="hot" value013a="gtp" value014="31" value016="212" value017="512" value018="216" value019="28" value020="45" value022="" value023a="0xffffff" value024a="0.00" value023b="0x000000" value024b="0.00" value025a="false" value025b="false"/>
+		<value012 value013="hot" value013a="gtp" value014="31" value016="206" value017="544" value018="235" value019="30" value020="47" value022="" value023a="0xffffff" value024a="0.00" value023b="0x000000" value024b="0.00" value025a="false" value025b="false"/>
+		<value012 value013="hot" value013a="gtp" value014="31" value016="207" value017="580" value018="432" value019="88" value020="48" value022="" value023a="0xffffff" value024a="0.00" value023b="0x000000" value024b="0.00" value025a="false" value025b="false"/>
+		<value012 value013="hot" value013a="gtp" value014="31" value016="206" value017="675" value018="405" value019="58" value020="49" value022="" value023a="0xffffff" value024a="0.00" value023b="0x000000" value024b="0.00" value025a="false" value025b="false"/>
+		<value012 value013="hot" value013a="gtp" value014="31" value016="214" value017="740" value018="337" value019="88" value020="50" value022="" value023a="0xffffff" value024a="0.00" value023b="0x000000" value024b="0.00" value025a="false" value025b="false"/>
+		<value012 value013="hot" value013a="gtp" value014="31" value016="210" value017="835" value018="341" value019="56" value020="51" value022="" value023a="0xffffff" value024a="0.00" value023b="0x000000" value024b="0.00" value025a="false" value025b="false"/>
+		<value012 value013="hot" value013a="gtp" value014="31" value016="210" value017="899" value018="499" value019="117" value020="52" value022="" value023a="0xffffff" value024a="0.00" value023b="0x000000" value024b="0.00" value025a="false" value025b="false"/>
+		<value012 value013="hot" value013a="gtp" value014="31" value016="212" value017="1025" value018="250" value019="61" value020="53" value022="" value023a="0xffffff" value024a="0.00" value023b="0x000000" value024b="0.00" value025a="false" value025b="false"/>
+		<value012 value013="hot" value013a="gtp" value014="31" value016="210" value017="1091" value018="236" value019="55" value020="55" value022="" value023a="0xffffff" value024a="0.00" value023b="0x000000" value024b="0.00" value025a="false" value025b="false"/>
+		<value012 value013="hot" value013a="gtp" value014="31" value016="210" value017="1149" value018="434" value019="58" value020="56" value022="" value023a="0xffffff" value024a="0.00" value023b="0x000000" value024b="0.00" value025a="false" value025b="false"/>
+		<value012 value013="hot" value013a="gtp" value014="31" value016="209" value017="1217" value018="432" value019="24" value020="57" value022="" value023a="0xffffff" value024a="0.00" value023b="0x000000" value024b="0.00" value025a="false" value025b="false"/>
+		<value012 value013="hot" value013a="gtp" value014="31" value016="206" value017="1247" value018="303" value019="25" value020="60" value022="" value023a="0xffffff" value024a="0.00" value023b="0x000000" value024b="0.00" value025a="false" value025b="false"/>
+		<value012 value013="hot" value013a="gtp" value014="31" value016="205" value017="1277" value018="390" value019="69" value020="62" value022="" value023a="0xffffff" value024a="0.00" value023b="0x000000" value024b="0.00" value025a="false" value025b="false"/>
+		<value012 value013="hot" value013a="gtp" value014="32" value016="1140" value017="455" value018="46" value019="35" value020="42" value022="" value023a="0xffffff" value024a="0.00" value023b="0x000000" value024b="0.00" value025a="false" value025b="false"/>
+		<value012 value013="hot" value013a="gtp" value014="32" value016="1143" value017="491" value018="35" value019="26" value020="45" value022="" value023a="0xffffff" value024a="0.00" value023b="0x000000" value024b="0.00" value025a="false" value025b="false"/>
+		<value012 value013="hot" value013a="gtp" value014="32" value016="1151" value017="521" value018="32" value019="26" value020="47" value022="" value023a="0xffffff" value024a="0.00" value023b="0x000000" value024b="0.00" value025a="false" value025b="false"/>
+		<value012 value013="hot" value013a="gtp" value014="32" value016="1145" value017="553" value018="38" value019="24" value020="48" value022="" value023a="0xffffff" value024a="0.00" value023b="0x000000" value024b="0.00" value025a="false" value025b="false"/>
+		<value012 value013="hot" value013a="gtp" value014="32" value016="1146" value017="613" value018="38" value019="24" value020="48" value022="" value023a="0xffffff" value024a="0.00" value023b="0x000000" value024b="0.00" value025a="false" value025b="false"/>
+		<value012 value013="hot" value013a="gtp" value014="32" value016="1144" value017="707" value018="35" value019="52" value020="49" value022="" value023a="0xffffff" value024a="0.00" value023b="0x000000" value024b="0.00" value025a="false" value025b="false"/>
+		<value012 value013="hot" value013a="gtp" value014="32" value016="1142" value017="762" value018="35" value019="52" value020="50" value022="" value023a="0xffffff" value024a="0.00" value023b="0x000000" value024b="0.00" value025a="false" value025b="false"/>
+		<value012 value013="hot" value013a="gtp" value014="32" value016="1145" value017="1002" value018="33" value019="188" value020="50" value022="" value023a="0xffffff" value024a="0.00" value023b="0x000000" value024b="0.00" value025a="false" value025b="false"/>
+		<value012 value013="hot" value013a="gtp" value014="32" value016="1140" value017="1244" value018="38" value019="24" value020="51" value022="" value023a="0xffffff" value024a="0.00" value023b="0x000000" value024b="0.00" value025a="false" value025b="false"/>
+		<value012 value013="hot" value013a="gtp" value014="32" value016="1146" value017="582" value018="38" value019="24" value020="51" value022="" value023a="0xffffff" value024a="0.00" value023b="0x000000" value024b="0.00" value025a="false" value025b="false"/>
+		<value012 value013="hot" value013a="gtp" value014="32" value016="1139" value017="1335" value018="38" value019="24" value020="51" value022="" value023a="0xffffff" value024a="0.00" value023b="0x000000" value024b="0.00" value025a="false" value025b="false"/>
+		<value012 value013="hot" value013a="gtp" value014="32" value016="1142" value017="1307" value018="38" value019="24" value020="52" value022="" value023a="0xffffff" value024a="0.00" value023b="0x000000" value024b="0.00" value025a="false" value025b="false"/>
+		<value012 value013="hot" value013a="gtp" value014="32" value016="1141" value017="1427" value018="43" value019="87" value020="52" value022="" value023a="0xffffff" value024a="0.00" value023b="0x000000" value024b="0.00" value025a="false" value025b="false"/>
+		<value012 value013="hot" value013a="gtp" value014="32" value016="1144" value017="1275" value018="38" value019="24" value020="53" value022="" value023a="0xffffff" value024a="0.00" value023b="0x000000" value024b="0.00" value025a="false" value025b="false"/>
+		<value012 value013="hot" value013a="gtp" value014="33" value016="1153" value017="630" value018="25" value019="33" value020="42" value022="" value023a="0xffffff" value024a="0.00" value023b="0x000000" value024b="0.00" value025a="false" value025b="false"/>
+		<value012 value013="hot" value013a="gtp" value014="33" value016="1133" value017="547" value018="25" value019="33" value020="45" value022="" value023a="0xffffff" value024a="0.00" value023b="0x000000" value024b="0.00" value025a="false" value025b="false"/>
+		<value012 value013="hot" value013a="gtp" value014="33" value016="1158" value017="547" value018="25" value019="33" value020="47" value022="" value023a="0xffffff" value024a="0.00" value023b="0x000000" value024b="0.00" value025a="false" value025b="false"/>
+		<value012 value013="hot" value013a="gtp" value014="33" value016="1152" value017="769" value018="25" value019="33" value020="48" value022="" value023a="0xffffff" value024a="0.00" value023b="0x000000" value024b="0.00" value025a="false" value025b="false"/>
+		<value012 value013="hot" value013a="gtp" value014="33" value016="1148" value017="683" value018="26" value019="67" value020="53" value022="" value023a="0xffffff" value024a="0.00" value023b="0x000000" value024b="0.00" value025a="false" value025b="false"/>
+		<value012 value013="hot" value013a="gtp" value014="33" value016="1146" value017="511" value018="25" value019="33" value020="53" value022="" value023a="0xffffff" value024a="0.00" value023b="0x000000" value024b="0.00" value025a="false" value025b="false"/>
+		<value012 value013="hot" value013a="gtp" value014="33" value016="1148" value017="852" value018="25" value019="33" value020="55" value022="" value023a="0xffffff" value024a="0.00" value023b="0x000000" value024b="0.00" value025a="false" value025b="false"/>
+		<value012 value013="hot" value013a="gtp" value014="33" value016="1147" value017="1456" value018="28" value019="122" value020="55" value022="" value023a="0xffffff" value024a="0.00" value023b="0x000000" value024b="0.00" value025a="false" value025b="false"/>
+		<value012 value013="hot" value013a="gtp" value014="33" value016="1149" value017="1579" value018="27" value019="65" value020="56" value022="" value023a="0xffffff" value024a="0.00" value023b="0x000000" value024b="0.00" value025a="false" value025b="false"/>
+		<value012 value013="hot" value013a="gtp" value014="33" value016="1148" value017="394" value018="25" value019="33" value020="60" value022="" value023a="0xffffff" value024a="0.00" value023b="0x000000" value024b="0.00" value025a="false" value025b="false"/>
+		<value012 value013="hot" value013a="gtp" value014="35" value016="300" value017="581" value018="122" value019="36" value020="53" value022="" value023a="0xffffff" value024a="0.00" value023b="0x000000" value024b="0.00" value025a="false" value025b="false"/>
+		<value012 value013="hot" value013a="gtp" value014="35" value016="208" value017="704" value018="156" value019="62" value020="53" value022="" value023a="0xffffff" value024a="0.00" value023b="0x000000" value024b="0.00" value025a="false" value025b="false"/>
+		<value012 value013="hot" value013a="gtp" value014="35" value016="348" value017="766" value018="25" value019="33" value020="45" value022="" value023a="0xffffff" value024a="0.00" value023b="0x000000" value024b="0.00" value025a="false" value025b="false"/>
+		<value012 value013="hot" value013a="gtp" value014="35" value016="379" value017="764" value018="25" value019="33" value020="46" value022="" value023a="0xffffff" value024a="0.00" value023b="0x000000" value024b="0.00" value025a="false" value025b="false"/>
+		<value012 value013="hot" value013a="gtp" value014="35" value016="366" value017="858" value018="111" value019="33" value020="50" value022="" value023a="0xffffff" value024a="0.00" value023b="0x000000" value024b="0.00" value025a="false" value025b="false"/>
+		<value012 value013="hot" value013a="gtp" value014="35" value016="565" value017="1217" value018="111" value019="33" value020="50" value022="" value023a="0xffffff" value024a="0.00" value023b="0x000000" value024b="0.00" value025a="false" value025b="false"/>
+		<value012 value013="hot" value013a="gtp" value014="35" value016="568" value017="1306" value018="111" value019="33" value020="50" value022="" value023a="0xffffff" value024a="0.00" value023b="0x000000" value024b="0.00" value025a="false" value025b="false"/>
+		<value012 value013="hot" value013a="gtp" value014="35" value016="239" value017="976" value018="111" value019="33" value020="56" value022="" value023a="0xffffff" value024a="0.00" value023b="0x000000" value024b="0.00" value025a="false" value025b="false"/>
+		<value012 value013="hot" value013a="gtp" value014="35" value016="345" value017="829" value018="545" value019="28" value020="52" value022="" value023a="0xffffff" value024a="0.00" value023b="0x000000" value024b="0.00" value025a="false" value025b="false"/>
+		<value012 value013="hot" value013a="wl" value014="36" value016="987" value017="1537" value018="196" value019="19" value020="http://gaait-aa.ey.net/Document.aspx?NodeId=936130&amp;ProductId=126" value022="" value023a="0xffffff" value024a="0.50" value023b="0x000000" value024b="0.00" value025a="false" value025b="false"/>
+		<value012 value013="hot" value013a="wl" value014="36" value016="677" value017="1559" value018="242" value019="19" value020="http://gaait-aa.ey.net/Document.aspx?NodeId=936130&amp;ProductId=126" value022="" value023a="0xffffff" value024a="0.50" value023b="0x000000" value024b="0.00" value025a="false" value025b="false"/>
+		<value012 value013="hot" value013a="gtp" value014="36" value016="644" value017="688" value018="128" value019="32" value020="42" value022="" value023a="0xffffff" value024a="0.00" value023b="0x000000" value024b="0.00" value025a="false" value025b="false"/>
+		<value012 value013="hot" value013a="wl" value014="37" value016="196" value017="274" value018="355" value019="19" value020="http://gaait-aa.ey.net/Document.aspx?NodeId=1271090&amp;ProductId=126" value022="" value023a="0xffffff" value024a="0.50" value023b="0x000000" value024b="0.00" value025a="false" value025b="false"/>
+		<value012 value013="hot" value013a="gtp" value014="53" value016="838" value017="265" value018="128" value019="32" value020="48" value022="" value023a="0xffffff" value024a="0.00" value023b="0x000000" value024b="0.00" value025a="false" value025b="false"/>
+		<value012 value013="hot" value013a="gtp" value014="55" value016="715" value017="432" value018="128" value019="32" value020="50" value022="" value023a="0xffffff" value024a="0.00" value023b="0x000000" value024b="0.00" value025a="false" value025b="false"/>
+		<value012 value013="hot" value013a="gtp" value014="59" value016="448" value017="615" value018="128" value019="32" value020="17" value022="" value023a="0xffffff" value024a="0.00" value023b="0x000000" value024b="0.00" value025a="false" value025b="false"/>
+		<value012 value013="hot" value013a="gtp" value014="63" value016="856" value017="432" value018="128" value019="32" value020="51" value022="" value023a="0xffffff" value024a="0.00" value023b="0x000000" value024b="0.00" value025a="false" value025b="false"/>
+		<value012 value013="hot" value013a="wl" value014="64" value016="58" value017="58" value018="1156" value019="1673" value020="http://www.andressarda.com" value022="" value023a="0xffffff" value024a="0.00" value023b="0x000000" value024b="0.00" value025a="false" value025b="false"/>
+		<value012 value013="hot" value013a="gtp" value014="68" value016="364" value017="662" value018="214" value019="32" value020="13" value022="" value023a="0xffffff" value024a="0.00" value023b="0x000000" value024b="0.00" value025a="false" value025b="false"/>
+		<value012 value013="hot" value013a="gtp" value014="68" value016="166" value017="686" value018="196" value019="34" value020="10" value022="" value023a="0xffffff" value024a="0.00" value023b="0x000000" value024b="0.00" value025a="false" value025b="false"/>
+		<value012 value013="hot" value013a="gtp" value014="69" value016="785" value017="286" value018="128" value019="32" value020="17" value022="" value023a="0xffffff" value024a="0.00" value023b="0x000000" value024b="0.00" value025a="false" value025b="false"/>
+		<value012 value013="hot" value013a="gtp" value014="69" value016="679" value017="380" value018="158" value019="32" value020="20" value022="" value023a="0xffffff" value024a="0.00" value023b="0x000000" value024b="0.00" value025a="false" value025b="false"/>
+		<value012 value013="hot" value013a="wl" value014="73" value016="242" value017="929" value018="153" value019="19" value020="www.vandevelde.eu" value022="" value023a="0xffffff" value024a="0.50" value023b="0x000000" value024b="0.00" value025a="false" value025b="false"/>
+		<value012 value013="hot" value013a="wl" value014="73" value016="280" value017="1092" value018="119" value019="19" value020="www.sa-intl.org" value022="" value023a="0xffffff" value024a="0.50" value023b="0x000000" value024b="0.00" value025a="false" value025b="false"/>
+		<value012 value013="hot" value013a="wl" value014="73" value016="413" value017="1537" value018="98" value019="19" value020="www.sgs.be" value022="" value023a="0xffffff" value024a="0.50" value023b="0x000000" value024b="0.00" value025a="false" value025b="false"/>
+	</value001>
+</value000>
