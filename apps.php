@@ -41,11 +41,10 @@
 			<h1>Applications</h1>
 			<p>The Lannoo-studio offers you a new vision of digital media and applications for tablets, smartphones and even websites. The newest software brings your online interactive media alive and makes it a real pleasure for the user.<br><br> And the customer will be pleased by the visual sophistication yet easy use of these apps. <br><br>Anything you want, from text to art books, magazines or your shop. We do it. Because, wherever you go, go Lannoo!</p>
 		</div>
-		<script src="_js/slideshow.js" type="text/javascript"></script>
 		<?php include '_includes/mailform.php' ?>
-		<div id="extra"></div>
-		<script src="_js/slider.js" type="text/javascript"></script>
+		<script src="_js/indexheader.js" type="text/javascript"></script>
 		<?php include '_includes/footer.php' ?>
 	</div>
+	<script src="_js/vendor/google.analytics.js"></script>
 </body>
 </html>

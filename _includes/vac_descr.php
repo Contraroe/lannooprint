@@ -1,5 +1,5 @@
-   <?php include 'php/db_config.php' ?>
-    <?php include 'php/db_connect.php' ?>
+   <?php include '_php/db_config.php' ?>
+    <?php include '_php/db_connect.php' ?>
     <?php
         $id = $_REQUEST["id"];
         $vac=mysql_query("

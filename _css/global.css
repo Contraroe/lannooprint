@@ -347,7 +347,7 @@
 #BG7 {
   display: none;
   position: absolute;
-  background-image: url(../_img/BG_paper3.jpg);
+  background-image: url(../_img/BG_paper.jpg);
   background-repeat: no-repeat;
   background-position: center;
   -webkit-background-size: cover;
@@ -362,7 +362,7 @@
 #BG8 {
   display: none;
   position: absolute;
-  background-image: url(../_img/BG_print2.jpg);
+  background-image: url(../_img/BG_print.jpg);
   background-repeat: no-repeat;
   background-position: center;
   -webkit-background-size: cover;

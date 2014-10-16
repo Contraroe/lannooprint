@@ -5,7 +5,7 @@ $('#item1').click( function() { window.open ('online.php',"_self"); return false
 $("#item2").click( function() { window.open ('books.php',"_self"); return false; });
 $("#item3").click( function() { window.open ('magazines.php',"_self"); return false; });
 $("#item4").click( function() { window.open ('apps.php',"_self"); return false; });
-$("#item5").click( function() { window.open ('plastificatie.php',"_self"); return false; });
+$("#item5").click( function() { window.open ('finishing.php',"_self"); return false; });
 $("#item6").click( function() { window.open ('database.php',"_self"); return false; });
 $("#item7").click( function() { window.open ('paper.php',"_self"); return false; });
 $("#item8").click( function() { window.open ('print.php',"_self"); return false; });
@@ -18,7 +18,7 @@ $('#item1').click( function() { window.open ('online.php',"_self"); return false
 $("#item2").click( function() { window.open ('books.php',"_self"); return false; });
 $("#item3").click( function() { window.open ('magazines.php',"_self"); return false; });
 $("#item4").click( function() { window.open ('apps.php',"_self"); return false; });
-$("#item5").click( function() { window.open ('plastificatie.php',"_self"); return false; });
+$("#item5").click( function() { window.open ('finishing.php',"_self"); return false; });
 $("#item6").click( function() { window.open ('database.php',"_self"); return false; });
 $("#item7").click( function() { window.open ('paper.php',"_self"); return false; });
 $("#item8").click( function() { window.open ('print.php',"_self"); return false; });

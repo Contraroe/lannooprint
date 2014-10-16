@@ -6,14 +6,14 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Lannoo | Database publishing</title>
-	<meta name="description" content="Uw database is een unieke bron voor ons om uw cataloog in een snellere en eenvourige manier op te maken. Uw technische informatie is de sleutel tot uw succes. Ons doel is om deze info te verwerken in een commerciële toepassing. Dit kan zowel op papier of digitaal, als webshop, app of andere e-communicatie.">
-	<meta name="keywords" content="Lannoo, drukkerij, tielt, database, publishing, gegevensbestand, automatisch, opmaak">
+	<title>Lannoo | Finishing</title>
+	<meta name="description" content="De Studio van Lannoo geeft u een nieuw inzicht op de digitale media en apps voor tablets, smartphones en zelfs websites. De modernste software brengt uw interactieve media tot leven en maakt het aangenaam in gebruik voor uw gebruiker.">
+	<meta name="keywords" content="Lannoo, drukkerij, studio, apps, smartphone, tablet, ipad, iOS, android, windows, blackberry, html, twixl, html5, javascript">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	
 	<link href="_css/global.css" rel="stylesheet" type="text/css" />
 	<link href="_css/normalize.css" rel="stylesheet" type="text/css" />
-	<link href="_css/ani_db.css" rel="stylesheet" type="text/css" />
+	<link href="_css/ani_finishing.css" rel="stylesheet" type="text/css" />
 	<link href="_img/ico/favicon.ico" rel="shortcut icon"/>
 
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.js" type="text/javascript"></script>
@@ -34,13 +34,13 @@
 	<?php include '_includes/vac.php' ?>
 	<?php include '_includes/testimonials.php' ?>
 	<div id="home"></div>
-	<?php include '_includes/ani_db.php' ?>
+	<?php include '_includes/ani_finishing.php' ?>
 	<div id="wrapper">
 		<?php include '_includes/header.php' ?>
 		<script src="_js/nav.js" type="text/javascript"></script>
 		<div id="content">
-			<h1>Database publication</h1>
-			<p><b>Your database is a unique source</b> for us to create your catalogue in a much faster &amp; easier way. <br>Your technical information is the key to your success. <br><br>Our mission is to upgrade this info into a commercial tool on paper or even electronically, as a web shop, app or any other e-communication. <br>It makes a <b>personalized approach</b> to your customers very easy.</p>
+			<h1>Finishing</h1>
+			<p>In our plant in Belgium, we do <b>all finishing in house</b>. <br><br>Not only are our hard covers famous for the extremely high quality of the binding, we manage plastification and varnishing as well as foil stamps, embossing, creasing, die cutting, screen printing, etc. <br><br>It gives your publication an <b>exclusive finishing touch</b> you always wanted to. Maybe with the soft touch. Feel the difference and make your work exclusive! </p>
 		</div>
 		<?php include '_includes/mailform.php' ?>
 		<script src="_js/indexheader.js" type="text/javascript"></script>
