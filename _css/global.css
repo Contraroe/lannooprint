@@ -212,7 +212,7 @@
   z-index: -99;
 }
 
-/* line 14, ../__compass/sass/_nav.sass */
+/* line 13, ../__compass/sass/_nav.sass */
 .home {
   background-image: url(../_img/BG_boy.jpg);
   background-repeat: no-repeat;
@@ -223,8 +223,8 @@
   background-size: cover;
 }
 
-/* BG */
-/* line 25, ../__compass/sass/_nav.sass */
+/* BG HOME */
+/* line 23, ../__compass/sass/_nav.sass */
 #BG1 {
   display: none;
   position: absolute;
@@ -239,12 +239,12 @@
   height: 100%;
 }
 
-/* line 37, ../__compass/sass/_nav.sass */
+/* line 35, ../__compass/sass/_nav.sass */
 #BG5 #BGcon h1 {
   color: white;
 }
 
-/* line 39, ../__compass/sass/_nav.sass */
+/* line 37, ../__compass/sass/_nav.sass */
 #yes {
   float: left;
   background-image: url(../_img/ico/yes.png);
@@ -256,7 +256,7 @@
   top: 50%;
 }
 
-/* line 48, ../__compass/sass/_nav.sass */
+/* line 46, ../__compass/sass/_nav.sass */
 #BG5 #yes {
   float: left;
   background-image: url(../_img/ico/yes_soft.png);
@@ -268,7 +268,7 @@
   top: 50%;
 }
 
-/* line 57, ../__compass/sass/_nav.sass */
+/* line 55, ../__compass/sass/_nav.sass */
 #BG2 {
   display: none;
   position: absolute;
@@ -283,7 +283,7 @@
   height: 100%;
 }
 
-/* line 69, ../__compass/sass/_nav.sass */
+/* line 67, ../__compass/sass/_nav.sass */
 #BG3 {
   display: none;
   position: absolute;
@@ -298,7 +298,7 @@
   height: 100%;
 }
 
-/* line 81, ../__compass/sass/_nav.sass */
+/* line 79, ../__compass/sass/_nav.sass */
 #BG4 {
   display: none;
   position: absolute;
@@ -313,7 +313,7 @@
   height: 100%;
 }
 
-/* line 93, ../__compass/sass/_nav.sass */
+/* line 91, ../__compass/sass/_nav.sass */
 #BG5 {
   display: none;
   position: absolute;
@@ -328,7 +328,7 @@
   height: 100%;
 }
 
-/* line 105, ../__compass/sass/_nav.sass */
+/* line 103, ../__compass/sass/_nav.sass */
 #BG6 {
   display: none;
   position: absolute;
@@ -343,7 +343,7 @@
   height: 100%;
 }
 
-/* line 117, ../__compass/sass/_nav.sass */
+/* line 115, ../__compass/sass/_nav.sass */
 #BG7 {
   display: none;
   position: absolute;
@@ -358,7 +358,7 @@
   height: 100%;
 }
 
-/* line 129, ../__compass/sass/_nav.sass */
+/* line 127, ../__compass/sass/_nav.sass */
 #BG8 {
   display: none;
   position: absolute;
@@ -373,7 +373,7 @@
   height: 100%;
 }
 
-/* line 141, ../__compass/sass/_nav.sass */
+/* line 139, ../__compass/sass/_nav.sass */
 #BG9 {
   display: none;
   position: absolute;
@@ -388,7 +388,7 @@
   height: 100%;
 }
 
-/* line 158, ../__compass/sass/_nav.sass */
+/* line 154, ../__compass/sass/_nav.sass */
 #header {
   position: absolute;
   min-width: 100%;
@@ -401,7 +401,7 @@
   text-align: center;
 }
 
-/* line 169, ../__compass/sass/_nav.sass */
+/* line 164, ../__compass/sass/_nav.sass */
 #header:hover {
   position: absolute;
   min-width: 100%;
@@ -412,7 +412,7 @@
   top: 0;
 }
 
-/* line 179, ../__compass/sass/_nav.sass */
+/* line 172, ../__compass/sass/_nav.sass */
 #item1 p,
 #item2 p,
 #item3 p,
@@ -427,7 +427,7 @@
   font-weight: 800;
 }
 
-/* line 193, ../__compass/sass/_nav.sass */
+/* line 184, ../__compass/sass/_nav.sass */
 .right {
   position: relative;
   top: 50%;
@@ -435,7 +435,7 @@
   padding-left: 50%;
 }
 
-/* line 199, ../__compass/sass/_nav.sass */
+/* line 189, ../__compass/sass/_nav.sass */
 .left {
   position: relative;
   top: 50%;
@@ -443,7 +443,7 @@
   padding-right: 50%;
 }
 
-/* line 206, ../__compass/sass/_nav.sass */
+/* line 194, ../__compass/sass/_nav.sass */
 #BGcon h1 {
   float: left;
   position: relative;
@@ -459,7 +459,7 @@
   line-height: 75px;
 }
 
-/* line 221, ../__compass/sass/_nav.sass */
+/* line 207, ../__compass/sass/_nav.sass */
 #yes {
   float: left;
   background-image: url(../_img/ico/yes.png);
@@ -471,7 +471,7 @@
   top: 50%;
 }
 
-/* line 232, ../__compass/sass/_nav.sass */
+/* line 216, ../__compass/sass/_nav.sass */
 #BG5 #yes {
   float: left;
   background-image: url(../_img/ico/yes_soft.png);
@@ -483,7 +483,7 @@
   top: 50%;
 }
 
-/* line 243, ../__compass/sass/_nav.sass */
+/* line 225, ../__compass/sass/_nav.sass */
 #item1 {
   background-image: url(../_img/ico/online_soft.png);
   background-repeat: no-repeat;
@@ -499,7 +499,7 @@
   overflow: hidden;
 }
 
-/* line 259, ../__compass/sass/_nav.sass */
+/* line 238, ../__compass/sass/_nav.sass */
 #item1:hover {
   background-image: url(../_img/ico/online.png);
   height: 60px;
@@ -507,7 +507,7 @@
   cursor: hand;
 }
 
-/* line 266, ../__compass/sass/_nav.sass */
+/* line 243, ../__compass/sass/_nav.sass */
 #item2 {
   background-image: url(../_img/ico/books_soft.png);
   background-repeat: no-repeat;
@@ -524,7 +524,7 @@
   color: #FFF;
 }
 
-/* line 282, ../__compass/sass/_nav.sass */
+/* line 257, ../__compass/sass/_nav.sass */
 #item2:hover {
   background-image: url(../_img/ico/books.png);
   height: 60px;
@@ -532,7 +532,7 @@
   cursor: hand;
 }
 
-/* line 289, ../__compass/sass/_nav.sass */
+/* line 262, ../__compass/sass/_nav.sass */
 #item3 {
   background-image: url(../_img/ico/magazines_soft.png);
   background-repeat: no-repeat;
@@ -549,7 +549,7 @@
   color: #FFF;
 }
 
-/* line 305, ../__compass/sass/_nav.sass */
+/* line 276, ../__compass/sass/_nav.sass */
 #item3:hover {
   background-image: url(../_img/ico/magazines.png);
   height: 60px;
@@ -557,7 +557,7 @@
   cursor: hand;
 }
 
-/* line 312, ../__compass/sass/_nav.sass */
+/* line 281, ../__compass/sass/_nav.sass */
 #item4 {
   background-image: url(../_img/ico/apps_soft.png);
   background-repeat: no-repeat;
@@ -573,7 +573,7 @@
   overflow: hidden;
 }
 
-/* line 327, ../__compass/sass/_nav.sass */
+/* line 294, ../__compass/sass/_nav.sass */
 #item4:hover {
   background-image: url(../_img/ico/apps.png);
   height: 60px;
@@ -581,7 +581,7 @@
   cursor: hand;
 }
 
-/* line 334, ../__compass/sass/_nav.sass */
+/* line 299, ../__compass/sass/_nav.sass */
 #item5 {
   background-image: url(../_img/ico/plastificatie_soft.png);
   background-repeat: no-repeat;
@@ -597,7 +597,7 @@
   overflow: hidden;
 }
 
-/* line 349, ../__compass/sass/_nav.sass */
+/* line 312, ../__compass/sass/_nav.sass */
 #item5:hover {
   background-image: url(../_img/ico/plastificatie.png);
   height: 60px;
@@ -605,7 +605,7 @@
   cursor: hand;
 }
 
-/* line 355, ../__compass/sass/_nav.sass */
+/* line 317, ../__compass/sass/_nav.sass */
 #item6 {
   background-image: url(../_img/ico/data_soft.png);
   background-repeat: no-repeat;
@@ -621,7 +621,7 @@
   overflow: hidden;
 }
 
-/* line 370, ../__compass/sass/_nav.sass */
+/* line 330, ../__compass/sass/_nav.sass */
 #item6:hover {
   background-image: url(../_img/ico/data.png);
   height: 60px;
@@ -629,7 +629,7 @@
   cursor: hand;
 }
 
-/* line 377, ../__compass/sass/_nav.sass */
+/* line 335, ../__compass/sass/_nav.sass */
 #item7 {
   background-image: url(../_img/ico/paper_soft.png);
   background-repeat: no-repeat;
@@ -645,7 +645,7 @@
   overflow: hidden;
 }
 
-/* line 392, ../__compass/sass/_nav.sass */
+/* line 348, ../__compass/sass/_nav.sass */
 #item7:hover {
   background-image: url(../_img/ico/paper.png);
   height: 60px;
@@ -653,7 +653,7 @@
   cursor: hand;
 }
 
-/* line 399, ../__compass/sass/_nav.sass */
+/* line 353, ../__compass/sass/_nav.sass */
 #item8 {
   background-image: url(../_img/ico/print_soft.png);
   background-repeat: no-repeat;
@@ -669,7 +669,7 @@
   overflow: hidden;
 }
 
-/* line 414, ../__compass/sass/_nav.sass */
+/* line 366, ../__compass/sass/_nav.sass */
 #item8:hover {
   background-image: url(../_img/ico/print.png);
   height: 60px;
@@ -677,7 +677,7 @@
   cursor: hand;
 }
 
-/* line 420, ../__compass/sass/_nav.sass */
+/* line 371, ../__compass/sass/_nav.sass */
 #item9 {
   background-image: url(../_img/ico/down_soft.png);
   background-repeat: no-repeat;
@@ -693,7 +693,7 @@
   overflow: hidden;
 }
 
-/* line 435, ../__compass/sass/_nav.sass */
+/* line 384, ../__compass/sass/_nav.sass */
 #item9:hover {
   background-image: url(../_img/ico/down.png);
   height: 60px;

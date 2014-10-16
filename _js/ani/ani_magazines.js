@@ -1,5 +1,4 @@
-	<script type="text/javascript">
-		$(document).ready(function(e) {
+$(document).ready(function(e) {
 			var angles = [90, 45, 315, 270, 225, 135];
 			var unit = 20;
 			var animate = function(){
@@ -13,6 +12,3 @@
 			}
 			var timer = setInterval(animate, 30);
 		});
-	</script>
-
-	<div id="fix"><div id="nofix"></div></div>
