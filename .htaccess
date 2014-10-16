@@ -1,4 +1,0 @@
-AuthUserFile /data/sites/web/lannooprintbe/data/.htpasswd
-AuthType Basic
-AuthName "Admin C-Panel"
-require valid-user
