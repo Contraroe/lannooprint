@@ -4,18 +4,18 @@
     </div>
     <h1 id="testimonials_title">Testimonials</h1>
     <div id="container_test" class="scroll-pane">
-
+<?php include '_php/error.php' ?>
 <?php include '_php/db_config.php' ?>
 <?php include '_php/db_connect.php' ?>
 <?php
-$result=mysql_query("
+$result=mysqli_query($connect,"</div>
             SELECT *
             FROM testimonials
             WHERE testimonials_active = 1
             ORDER BY testimonials_date DESC
         ");
-        $numa=mysql_numrows($result);
-        mysql_close();
+        $numa=mysqli_num_rows($result);
+        // mysqli_close();
             if (!empty($numa)) {
     ?>
     <?php

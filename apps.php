@@ -30,6 +30,7 @@
 	<script type="text/javascript" src="_js/scrollbars/jquery.jscrollpane.min.js"></script>
 </head>
 <body>
+	<?php include '_php/error.php' ?>
 	<?php include '_includes/vac.php' ?>
 	<?php include '_includes/testimonials.php' ?>
 	<div id="home"></div>

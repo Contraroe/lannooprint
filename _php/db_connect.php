@@ -1,4 +1,4 @@
 <?php
-$connect=mysql_connect($dbhost,$dbuser,$dbpass) or die("Error connecting to Database!");
-mysql_select_db($database,$connect) or die("Cannot select database!");
+$connect=mysqli_connect($dbhost,$dbuser,$dbpass,$database) or die("Error connecting to Database!");
+// mysqli_select_db(,$connect) or die("Cannot select database!");
 ?>

@@ -23,6 +23,7 @@
 </head>
 
 <body>
+	<?php include '../../_php/error.php' ?>
 	<?php include "includes/header_bc.php" ?>
 			<div id="container">
 					<!-- EDIT DBASE -->

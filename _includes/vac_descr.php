@@ -1,8 +1,9 @@
+   <?php include '_php/error.php' ?>
    <?php include '_php/db_config.php' ?>
     <?php include '_php/db_connect.php' ?>
     <?php
         $id = $_REQUEST["id"];
-        $vac=mysql_query("
+        $vac=mysqli_query($connect,"
             SELECT *
             FROM vacatures
             WHERE vac_id = '$id'
@@ -19,13 +20,13 @@
     </div>
     <h1 id="vac_title">Jobs</h1>
     <?php
-        $result=mysql_query("
+        $result=mysqli_query($connect,"
             SELECT *
             FROM vacatures
             WHERE vac_active = 1
         ");
-        $numa=mysql_numrows($result);
-        mysql_close();
+        $numa=mysqli_numrows($result);
+        // mysqli_close();
             if (!empty($numa)) {
     ?>
     <?php

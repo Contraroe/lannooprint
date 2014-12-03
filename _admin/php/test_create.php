@@ -1,5 +1,7 @@
-<?php include '../../php/db_config.php' ?>
-<?php include '../../php/db_connect.php' ?>
+<?php include '../../_php/error.php' ?>
+<?php include '../../_php/error.php' ?>
+<?php include '../../_php/db_config.php' ?>
+<?php include '../../_php/db_connect.php' ?>
 <?php
 	//Get data in local variable
 	$customer=htmlentities(addslashes($_POST['customer']));

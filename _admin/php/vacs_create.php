@@ -1,5 +1,6 @@
-<?php include '../../php/db_config.php' ?>
-<?php include '../../php/db_connect.php' ?>
+<?php include '../../_php/error.php' ?>
+<?php include '../../_php/db_config.php' ?>
+<?php include '../../_php/db_connect.php' ?>
 <?php
 	//Get data in local variable
 	$function=htmlentities(addslashes($_POST['function']));
@@ -15,7 +16,7 @@
 	values
 		('$function', '$spec', '$definition', '$live')";
 
-	mysql_query($query)  or die(mysql_error());
+	mysqli_query($query)  or die(mysql_error());
 	header ('Location: ../index.php');
 
 ?> 

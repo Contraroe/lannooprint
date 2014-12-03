@@ -2,19 +2,20 @@
     <div id="vac_nav" >
         <div id="sluit"></div>
     </div>
-
     <h1 id="vac_title">Jobs</h1>
     <div id="container_vacs" class="scroll-pane">
+<?php include '_php/error.php' ?>
 <?php include '_php/db_config.php' ?>
 <?php include '_php/db_connect.php' ?>
 <?php
-$result=mysql_query("
+$result=mysqli_query($connect,"
             SELECT *
             FROM vacatures
             WHERE vac_active = 1
+            
         ");
-        $numa=mysql_numrows($result);
-        mysql_close();
+        $numa=mysqli_num_rows($result);
+        // mysqli_close();
             if (!empty($numa)) {
     ?>
     <?php
@@ -40,6 +41,6 @@ $result=mysql_query("
 <script src="_js/vacs.js"></script>
 </div>
 </div>
-<script type="text/javascript">
-   $('.jobscont:not(:has(div.job))').hide();
-</script>
+// <script type="text/javascript">
+//    $('.jobscont:not(:has(div.job))').hide();
+// </script>

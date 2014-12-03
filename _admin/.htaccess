@@ -1,5 +1,0 @@
-AuthName "Admin C-Panel" 
-AuthType Basic 
-AuthUserFile ../.htpasswd 
-AuthGroupFile /dev/null 
-require valid-user
