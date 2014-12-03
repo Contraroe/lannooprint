@@ -10,13 +10,13 @@
 <?php
 $result=mysqli_query($connect,"</div>
             SELECT *
-            FROM testimonials
-            WHERE testimonials_active = 1
-            ORDER BY testimonials_date DESC
+            FROM 'testimonials'
+            WHERE 'testimonials_active' = 1
+            ORDER BY 'testimonials_date 'DESC
         ");
         $numa=mysqli_num_rows($result);
         // mysqli_close();
-            if (!empty($numa)) {
+            if (!$numa || mysqli_num_rows($numa) == 0) {
     ?>
     <?php
         $i=0;
@@ -44,10 +44,10 @@ $result=mysqli_query($connect,"</div>
 </div>
 </div>
 <script type="text/javascript">
-   $('.testimonialscont:not(:has(div.test))').hide();
-   $('.testimonialscont:not(:has(div.test))').hide(function(){
-         $("#vac_cont").animate({
-            right:'0px'
-         });   
-   });
+   // $('.testimonialscont:not(:has(div.test))').hide();
+   // $('.testimonialscont:not(:has(div.test))').hide(function(){
+   //       $("#vac_cont").animate({
+   //          right:'0px'
+   //       });   
+   // });
 </script>

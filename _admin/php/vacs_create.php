@@ -11,7 +11,7 @@
 
 	$query="
 	insert 
-	into vacatures
+	into 'vacatures'
 		(vac_functie,vac_spec,vac_txt,vac_active) 
 	values
 		('$function', '$spec', '$definition', '$live')";

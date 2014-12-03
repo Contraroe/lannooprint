@@ -10,13 +10,13 @@
 <?php
 $result=mysqli_query($connect,"
             SELECT *
-            FROM vacatures
-            WHERE vac_active = 1
+            FROM 'vacatures'
+            WHERE 'vac_active' = 1
             
         ");
         $numa=mysqli_num_rows($result);
         // mysqli_close();
-            if (!empty($numa)) {
+            if (!$numa || mysqli_num_rows($numa) == 0) {
     ?>
     <?php
         $i=0;
@@ -41,6 +41,6 @@ $result=mysqli_query($connect,"
 <script src="_js/vacs.js"></script>
 </div>
 </div>
-// <script type="text/javascript">
+<script type="text/javascript">
 //    $('.jobscont:not(:has(div.job))').hide();
-// </script>
+</script>

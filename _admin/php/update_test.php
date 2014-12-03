@@ -12,7 +12,7 @@
 	elseif ($active == 0) $active = '1';
 
 
-	$query=" UPDATE $db SET testimonials_active = '$active' WHERE testimonials_id = '$id' ";
+	$query=" UPDATE $db SET 'testimonials_active' = '$active' WHERE 'testimonials_id' = '$id' ";
 
 	mysql_query($query)  or die(mysql_error());
 	header ('Location: ../index.php');

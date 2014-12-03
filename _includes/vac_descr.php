@@ -5,8 +5,8 @@
         $id = $_REQUEST["id"];
         $vac=mysqli_query($connect,"
             SELECT *
-            FROM vacatures
-            WHERE vac_id = '$id'
+            FROM 'vacatures'
+            WHERE 'vac_id' = '$id'
             ");
         $v1=html_entity_decode(mysql_result($vac,$i,"vac_id"));
         $v2=html_entity_decode(mysql_result($vac,$i,"vac_functie"));
@@ -22,10 +22,10 @@
     <?php
         $result=mysqli_query($connect,"
             SELECT *
-            FROM vacatures
-            WHERE vac_active = 1
+            FROM 'vacatures'
+            WHERE 'vac_active' = 1
         ");
-        $numa=mysqli_numrows($result);
+        $numa=mysqli_num_rows($result);
         // mysqli_close();
             if (!empty($numa)) {
     ?>

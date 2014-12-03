@@ -1,16 +1,17 @@
 <div id="testimonials_bc">
 	<h1>Edit <span>Testimonials</span></h1>
+	<?php include '../_php/error.php' ?>
 	<?php include "../_php/db_config.php" ?>
 	<?php include "../_php/db_connect.php" ?>
 
 		<?php
-		$result=mysql_query("
+		$result=mysqli_query($connect,"
 		            SELECT *
-		            FROM testimonials
-		            ORDER BY testimonials_date DESC
+		            FROM 'testimonials'
+		            ORDER BY 'testimonials_date' DESC
 		        ");
-		        $numa=mysql_numrows($result);
-		        mysql_close();
+		        $numa=mysqli_num_rows($result);
+		        // mysql_close();
 		            if (!empty($numa)) {
 		?>
 		<?php
