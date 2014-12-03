@@ -11,12 +11,11 @@
 $result=mysqli_query($connect,"
             SELECT *
             FROM 'vacatures'
-            WHERE 'vac_active' = 1
-            
+            WHERE 'vac_active' = 1        
         ");
         $numa=mysqli_num_rows($result);
         // mysqli_close();
-            if (!$numa || mysqli_num_rows($numa) == 0) {
+            if (!empty($numa)) {
     ?>
     <?php
         $i=0;
