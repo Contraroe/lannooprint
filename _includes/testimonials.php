@@ -10,10 +10,10 @@
 <?php
 
 	$result=mysqli_query($connect,"SELECT * FROM testimonials WHERE testimonials_active = 1 ORDER BY testimonials_date DESC");
-	if (!$result) { die('Invalid query: 12' . mysql_error());};
+	if (!$result) { die('Invalid query: Line 12' . mysql_error());};
 
 	$numrows=mysqli_num_rows($result);
-	if (!$numrows) { die('Invalid num_rows: 15 ' . mysql_error());};
+	if (!$numrows) { die('Invalid num_rows: Line 15 ' . mysql_error());};
 	
 	if (!empty($numrows)) {
 		$i=0;
