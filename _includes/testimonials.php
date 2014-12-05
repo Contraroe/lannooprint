@@ -11,8 +11,10 @@
 
 	$result=mysqli_query($connect,"SELECT * FROM testimonials WHERE testimonials_active = 1 ORDER BY testimonials_date DESC");
 	if (!$result) { die('Invalid query: ' . mysql_error());};
+
 	$numa=mysqli_num_rows($result);
-	if (!$numa) { die('Invalid numa: ' . mysql_error());};
+	if (!$numa) { die('Invalid numa NUM_ROWS: ' . mysql_error());};
+	
 	if (!empty($numa)) {
 	?>
 	<?php
