@@ -10,16 +10,14 @@
 <?php
 
 	$result=mysqli_query($connect,"SELECT * FROM testimonials WHERE testimonials_active = 1 ORDER BY testimonials_date DESC");
-	if (!$result) { die('Invalid query: ' . mysql_error());};
+	if (!$result) { die('Invalid query: 12' . mysql_error());};
 
-	$numa=mysqli_num_rows($result);
-	if (!$numa) { die('Invalid numa NUM_ROWS: ' . mysql_error());};
+	$numrows=mysqli_num_rows($result);
+	if (!$numrows) { die('Invalid num_rows: 15 ' . mysql_error());};
 	
-	if (!empty($numa)) {
-	?>
-	<?php
+	if (!empty($numrows)) {
 		$i=0;
-		while ($i < $numa) {
+		while ($i < $numrows) {
 			$f1=html_entity_decode(mysql_result($result,$i,"testimonials_id"));
 			$f2=html_entity_decode(mysql_result($result,$i,"testimonials_klant"));
 			$f3=html_entity_decode(mysql_result($result,$i,"testimonials_date"));
@@ -37,6 +35,7 @@
 		$i++;
 		}
 	}
+	mysqli_close($connect);
 ?>
 <script src="_js/vacs.js"></script>
 </div>
