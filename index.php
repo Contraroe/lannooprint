@@ -10,7 +10,7 @@
 	<meta name="description" content="Drukkerij Lannoo is veel meer dan zomaar een drukkerij. Meer dan 100 jaar ervaring leert ons dat onze klanten meer verwachten dan enkel het ontwerpen en drukken van orders, we denken ook mee met onze klanten, bieden online diensten aan, maken tablet apps, doen aan database publishing, en zo veel meer. Sinds kort hebben we ook onze eigen Lannoo Paper Products. Dit is een selectie aan innovatieve producten ontworpen door onze Lannoo Studio.">
 	<meta name="keywords" content="Lannoo, drukkerij, tielt, print, printers, boeken, tijdschriften, commercieel, drukwerk, digitaal, oplage, groot, klein, database, online, tablet, app, afwerking, studio, ontwerp, prepress, premedia">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	
+
 	<link href="_css/global.css" rel="stylesheet" type="text/css" />
 	<link href="_css/normalize.css" rel="stylesheet" type="text/css" />
 	<link href="_img/ico/favicon.ico" rel="shortcut icon"/>
@@ -34,6 +34,7 @@
 	<?php include '_includes/agenda.php' ?>
 	<?php include '_includes/vac.php' ?>
 	<?php include '_includes/testimonials.php' ?>
+	<?php include '_includes/socialinfo.php' ?>
 	<div id="wrapper" class="home">
 		<div id="lannoo"><div id="logo"></div><h1>Lannoo</h1><h2>made in belgium <b>since 1909</b></h2></div>
 		<?php include '_includes/intro.php' ?>
@@ -42,5 +43,8 @@
 		<?php include '_includes/footer.php' ?>
 	</div>
 	<script src="_js/vendor/google.analytics.js"></script>
+<!-- Go to www.addthis.com/dashboard to customize your tools -->
+<!-- <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-54883a3e59763892" async="async"></script> -->
+
 </body>
 </html>

@@ -1,1 +1,1 @@
-$(document).ready(function(){$("#goto").bind("click touch",function(){return window.open("http://www.lannoopaperproducts.be","_blank"),!1}),$("#down").bind("click touch",function(n){n.preventDefault(),window.open("_mailing/LannooPaperProducts_largequantity.pdf","_blank")})});
+$(document).ready(function(){$("#goto").bind("click touch",function(){return window.open("http://www.lannoopaperproducts.be","_blank"),!1}),$("#down").bind("click touch",function(n){n.preventDefault(),window.open("_dl/LannooPaperProducts_largequantity.pdf","_blank")})});

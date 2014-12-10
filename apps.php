@@ -10,7 +10,7 @@
 	<meta name="description" content="De Studio van Lannoo geeft u een nieuw inzicht op de digitale media en apps voor tablets, smartphones en zelfs websites. De modernste software brengt uw interactieve media tot leven en maakt het aangenaam in gebruik voor uw gebruiker.">
 	<meta name="keywords" content="Lannoo, drukkerij, studio, apps, smartphone, tablet, ipad, iOS, android, windows, blackberry, html, twixl, html5, javascript">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	
+
 	<link href="_css/global.css" rel="stylesheet" type="text/css" />
 	<link href="_css/normalize.css" rel="stylesheet" type="text/css" />
 	<link href="_css/ani_apps.css" rel="stylesheet" type="text/css" />
