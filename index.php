@@ -31,10 +31,8 @@
 
 <body>
 	<?php include '_php/error.php' ?>
-	<?php include '_includes/agenda.php' ?>
 	<?php include '_includes/vac.php' ?>
 	<?php include '_includes/testimonials.php' ?>
-	<?php include '_includes/socialinfo.php' ?>
 	<div id="wrapper" class="home">
 		<div id="lannoo"><div id="logo"></div><h1>Lannoo</h1><h2>made in belgium <b>since 1909</b></h2></div>
 		<?php include '_includes/intro.php' ?>

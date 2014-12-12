@@ -11,3 +11,4 @@
                     <div id="item9" .class="menu"><p>News and info</p></div>
                 </div>
 </div>
+<?php include '_includes/socialinfo.php' ?>
