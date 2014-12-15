@@ -12,7 +12,7 @@ function facebook_count( $username ) {
 // TWITTER
 $data = json_decode(file_get_contents('https://cdn.syndication.twimg.com/widgets/followbutton/info.json?screen_names=Tw_Lannoo'), true);
 
->
+?>
 
 <div id="social_cont">
 	<ul>
