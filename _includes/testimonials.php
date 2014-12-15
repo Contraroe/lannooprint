@@ -4,7 +4,6 @@
 	</div>
 	<h1 id="testimonials_title">Testimonials</h1>
 	<div id="container_test" >
-<?php include '_php/error.php' ?>
 <?php include '_php/db_config.php' ?>
 <?php include '_php/db_connect.php' ?>
 <?php

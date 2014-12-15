@@ -4,8 +4,6 @@
 	</div>
 	<h1 id="vac_title">Jobs</h1>
 	<div id="container_vacs" >
-
-<?php include '_php/error.php' ?>
 <?php include '_php/db_config.php' ?>
 <?php include '_php/db_connect.php' ?>
 <?php

@@ -1,8 +1,6 @@
 <?php
 
-	ini_set('display_errors',1);
-	ini_set('display_startup_errors',1);
-	error_reporting(E_ALL);
+include '_php/error.php';
 
 // FACEBOOK
 
@@ -14,7 +12,7 @@ function facebook_count( $username ) {
 // TWITTER
 $data = json_decode(file_get_contents('https://cdn.syndication.twimg.com/widgets/followbutton/info.json?screen_names=Tw_Lannoo'), true);
 
-?>
+>
 
 <div id="social_cont">
 	<ul>

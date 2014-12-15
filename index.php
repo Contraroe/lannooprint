@@ -30,7 +30,6 @@
 </head>
 
 <body>
-	<?php include '_php/error.php' ?>
 	<?php include '_includes/vac.php' ?>
 	<?php include '_includes/testimonials.php' ?>
 	<div id="wrapper" class="home">
