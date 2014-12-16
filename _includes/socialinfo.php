@@ -3,14 +3,10 @@
 include '_php/error.php';
 
 // FACEBOOK
-
-function facebook_count( $username ) {
-	$facebook_count = file_get_contents( 'http://www.facebook.com/'.$username );
-	return json_decode( $facebook_count )->likes;
-}
+// $facebook_count = json_decode(file_get_contents( 'https://graph.facebook.com/LannooPrinters'), true);
 
 // TWITTER
-$data = json_decode(file_get_contents('https://cdn.syndication.twimg.com/widgets/followbutton/info.json?screen_names=Tw_Lannoo'), true);
+// $data = json_decode(file_get_contents('https://cdn.syndication.twimg.com/widgets/followbutton/info.json?screen_names=Tw_Lannoo'), true);
 
 ?>
 
@@ -18,18 +14,18 @@ $data = json_decode(file_get_contents('https://cdn.syndication.twimg.com/widgets
 	<ul>
 		<li class="twitter"><a id="social" class="popup" href="http://twitter.com/tw_lannoo" ></a></li>
 		<li class="twitter2 count">
-			<?php echo $data[0]['followers_count']; ?>
+			<?php // echo $data[0]['followers_count']; ?>
 		</li>
 		<li class="facebook"><a  id="social"  class="popup" href="http://www.facebook.com/LannooPrinters" ></a></li>
 		<li class="facebook2 count">
-		<?php // echo facebook_count( '' ); ?>
+			
 		</li>
 		<li class="linked"><a id="social" class="popup" href="http://www.linkedin.com/LannooPrinters" ></a></li>
 		<li id="statusDiv" class="lannoo"></li>
 		<li id="diaries" class="lannoo2 count">Diaries</li>
 		<li id="down" class="lannoo2 count">folder</li>
 		<li id="goto" class="lannoo2 count">shop</li>
-		<li id="subscribe" class="lannoo2 count" class="active" >newsletter</li>
+		<li id="subscribe" class="lannoo2 count" >newsletter</li>
 	</ul>
 </div>
 <div id="subscribeform">
@@ -72,18 +68,6 @@ $data = json_decode(file_get_contents('https://cdn.syndication.twimg.com/widgets
 	}).hide()
 </script>
 
-<!-- LINKED IN -->
-<script type="text/javascript" src="http://platform.linkedin.com/in.js">
-	// api_key: API_KEY
-	// onLoad: onLinkedInLoad
-	// authorize: true
-	// function onLinkedInLoad() {
-	// IN.API.Raw("/companies/COMPANY_ID:(num-followers)")
-	// 	.result( function(result) { document.getElementById("statusDiv").innerHTML = result.numFollowers; } )
-	// 	.error( function(error) { /* do nothing */ } )
-	// ;
-	// }
-</script>
 
 <!-- LANNOO KOPPELINGEN -->
 <script src="_js/diaries.js" type="text/javascript"></script>
