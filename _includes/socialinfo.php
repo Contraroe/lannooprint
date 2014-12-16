@@ -1,12 +1,16 @@
 <?php
 
-include '_php/error.php';
+
+// include '_php/error.php';
 
 // FACEBOOK
-// $facebook_count = json_decode(file_get_contents( 'https://graph.facebook.com/LannooPrinters'), true);
+// $facebook = json_decode(file_get_contents( 'https://graph.facebook.com/LannooPrinters'), true);
 
 // TWITTER
-// $data = json_decode(file_get_contents('https://cdn.syndication.twimg.com/widgets/followbutton/info.json?screen_names=Tw_Lannoo'), true);
+$twitter = json_decode(file_get_contents('https://cdn.syndication.twimg.com/widgets/followbutton/info.json?screen_names=Tw_Lannoo'), true);
+
+// LINKEDIN
+// $linked = json_decode(file_get_contents(''), true);
 
 ?>
 
@@ -14,21 +18,25 @@ include '_php/error.php';
 	<ul>
 		<li class="twitter"><a id="social" class="popup" href="http://twitter.com/tw_lannoo" ></a></li>
 		<li class="twitter2 count">
-			<?php // echo $data[0]['followers_count']; ?>
+			<?php echo $twitter[0]['followers_count']; ?>
 		</li>
 		<li class="facebook"><a  id="social"  class="popup" href="http://www.facebook.com/LannooPrinters" ></a></li>
 		<li class="facebook2 count">
-			
+			<?php // echo $facebook['likes']; ?>
 		</li>
 		<li class="linked"><a id="social" class="popup" href="http://www.linkedin.com/LannooPrinters" ></a></li>
-		<li id="statusDiv" class="lannoo"></li>
+		<li class="linked2 count">
+			<?php echo $twitter[0]['followers_count']; ?>
+		</li>
+		<li class="lannoo"></li>
 		<li id="diaries" class="lannoo2 count">Diaries</li>
 		<li id="down" class="lannoo2 count">folder</li>
 		<li id="goto" class="lannoo2 count">shop</li>
-		<li id="subscribe" class="lannoo2 count" >newsletter</li>
+		<li id="subscribe" class="lannoo2 count news" >newsletter</li>
 	</ul>
 </div>
-<div id="subscribeform">
+
+<div id="subscribeform" class="hidden">
 	<form method="post" action="https://lannoo.email-provider.nl/subscribe/post/index.php" accept-charset="utf-8">
 		<h1>Subscribe to our <span>Newsletter</span></h1>
 		<input type="hidden" name="next" value="www.lannooprint.be" />
@@ -39,12 +47,31 @@ include '_php/error.php';
 		<label for="id-BgVGtnfgu1">Last Name&nbsp;*</label><input type="text" name="BgVGtnfgu1" id="id-BgVGtnfgu1"><br>
 		<label for="id-R4cpL1yiHO">Language&nbsp;*</label><select name="R4cpL1yiHO" id="id-R4cpL1yiHO"><option value="0">Prefered language:</option><option value="1">English</option><option value="2">French</option><option value="3">Dutch</option></select><br>
 		<input type="submit" value="Subscribe" />
-		<div id="close">X</div>
+		<div id="close" class="toe">X</div>
 	</form>
 </div>
 
+
+
+<!-- Subscription FORM nav Functions -->
+<script type="text/javascript">
+	$('.hidden').hide();
+
+	// open form
+	$('.news').bind('click', function(){
+		$('.news').css('background-color','rgba(0, 200, 200,1)');
+		$('.hidden').fadeIn(700);
+	});
+
+	$('.toe').bind('click', function(){
+		$('.news').css('background-color','rgba(0,0,0,0.8)');
+		$('.hidden').fadeOut(700);
+	});
+
+</script>
+
 <!-- POPUP SOCIAL WEBSITES -->
-<script type="text/javascript"> 
+<script type="text/javascript">
 	$('.popup').click(function(event) {
 		var width  = 575,
 			height = 400,
@@ -69,26 +96,7 @@ include '_php/error.php';
 </script>
 
 
+
 <!-- LANNOO KOPPELINGEN -->
 <script src="_js/diaries.js" type="text/javascript"></script>
 
-<!-- Subscription FORM nav Functions -->
-<script type="text/javascript">
-
-	$('#subscribeform').hide();
-	// open form
-
-	$(document).ready(function(){
-		$('#subscribe').bind('click', function(){
-			$('#subscribe').css('background-color','rgba(0, 200, 200,1)');
-			$('#subscribeform').fadeIn(1000);
-		});
-
-		$('#close').bind('click', function(){
-			$('#subscribe').css('background-color','rgba(0,0,0,0.8)');
-			$('#subscribeform').fadeOut(1000);
-		});
-
-	});
-
-</script>
