@@ -4,7 +4,7 @@
 // include '_php/error.php';
 
 // FACEBOOK
-$facebook = json_decode(file_get_contents( 'https://graph.facebook.com/LannooPrinters'), true);
+//$facebook = json_decode(file_get_contents( 'https://graph.facebook.com/LannooPrinters'), true);
 
 // TWITTER
 $twitter = json_decode(file_get_contents('https://cdn.syndication.twimg.com/widgets/followbutton/info.json?screen_names=Tw_Lannoo'), true);
@@ -22,11 +22,11 @@ $twitter = json_decode(file_get_contents('https://cdn.syndication.twimg.com/widg
 		</li>
 		<li class="facebook"><a  id="social"  class="popup" href="http://www.facebook.com/LannooPrinters" ></a></li>
 		<li class="facebook2 count">
-			<?php echo $facebook['likes']; ?>
+			<?php // echo $facebook['likes']; ?>
 		</li>
 		<li class="linked"><a id="social" class="popup" href="http://www.linkedin.com/LannooPrinters" ></a></li>
 		<li class="linked2 count">
-			<?php echo $twitter[0]['followers_count']; ?>
+			<?php // echo $twitter[0]['followers_count']; ?>
 		</li>
 		<li class="lannoo"></li>
 		<li id="diaries" class="lannoo2 count">Diaries</li>
@@ -99,4 +99,3 @@ $twitter = json_decode(file_get_contents('https://cdn.syndication.twimg.com/widg
 
 <!-- LANNOO KOPPELINGEN -->
 <script src="_js/diaries.js" type="text/javascript"></script>
-
