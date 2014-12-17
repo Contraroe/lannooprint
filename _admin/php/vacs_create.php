@@ -1,4 +1,3 @@
-<?php include '../../_php/error.php' ?>
 <?php include '../../_php/db_config.php' ?>
 <?php include '../../_php/db_connect.php' ?>
 <?php

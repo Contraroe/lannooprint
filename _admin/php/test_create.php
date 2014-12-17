@@ -1,5 +1,3 @@
-<?php include '../../_php/error.php' ?>
-<?php include '../../_php/error.php' ?>
 <?php include '../../_php/db_config.php' ?>
 <?php include '../../_php/db_connect.php' ?>
 <?php
@@ -17,7 +15,7 @@
 	values
 		('$customer', '$date', '$testimonial', '$live')";
 
-	mysql_query($query)  or die(mysql_error());
+	mysqli_query($connect, $query)  or die(mysql_error());
 	header ('Location: ../index.php');
 
 ?> 

@@ -13,7 +13,7 @@
 	<link href="img/ico/favicon.ico" rel="shortcut icon"/>
 	<link href="../_css/normalize.css" rel="stylesheet" type="text/css" />
 	<link href="css/admin.css" rel="stylesheet" type="text/css" />
-	
+
 	<link href="_img/ico/favicon.ico" rel="shortcut icon"/>
 
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.js" type="text/javascript"></script>
@@ -33,6 +33,6 @@
 					<?php include "includes/testimonials_create.php" ?>
 					<?php include "includes/vacatures_create.php" ?>
 			</div>
-			
+
 </body>
 </html>
