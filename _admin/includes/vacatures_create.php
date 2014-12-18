@@ -10,7 +10,7 @@
 	                <input type='text' name='spec' id='spec'  maxlength="50" /><br><br>
 
 	                <label for='definition' >Definition:</label><br>
-	                <textarea type='text' name='testimonial' id='testimonial'  maxlength="1000" rows="5" cols="60" class="scroll-pane"></textarea><br><br>
+	                <textarea type='text' name='definition' id='definition'  maxlength="1000" rows="5" cols="60" class="scroll-pane"></textarea><br><br>
 
 	                <label for='live'  class="live">live:</label>&nbsp;<input type='checkbox' name='live' value='1'  class="check"><br><br>
 

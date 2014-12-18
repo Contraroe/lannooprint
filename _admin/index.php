@@ -23,7 +23,7 @@
 </head>
 
 <body>
-	<?php include '../../_php/error.php' ?>
+	<?php include '../_php/error.php' ?>
 	<?php include "includes/header_bc.php" ?>
 			<div id="container">
 					<!-- EDIT DBASE -->
@@ -33,6 +33,5 @@
 					<?php include "includes/testimonials_create.php" ?>
 					<?php include "includes/vacatures_create.php" ?>
 			</div>
-
 </body>
 </html>

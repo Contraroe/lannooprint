@@ -8,7 +8,7 @@
 
 	$query=" DELETE FROM $db WHERE vac_id = '$id'";
 
-	mysqli_query($query)  or die(mysql_error());
+	mysqli_query($connect, $query)  or die(mysql_error());
 	header ('Location: ../index.php');
 
 ?> 

@@ -11,7 +11,7 @@
 	elseif ($active == 0) $active = '1';
 
 
-	$query="UPDATE $db SET 'testimonials_active' = '$active' WHERE 'testimonials_id' = '$id'";
+	$query="UPDATE $db SET testimonials_active = '$active' WHERE testimonials_id = '$id'";
 
 	mysqli_query($connect, $query)  or die(mysql_error());
 	header ('Location: ../index.php');
