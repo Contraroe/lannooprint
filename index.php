@@ -35,7 +35,7 @@
 	<?php include '_includes/socialinfo.php' ?>
 	<div id="wrapper" class="home">
 		<div id="lannoo"><div id="logo"></div><h1>Lannoo</h1><h2>made in belgium <b>since 1909</b></h2></div>
-		<?php include '_includes/intro.php' ?>
+		<div id="intro"><?php include '_includes/intro.php' ?></div>
 		<?php include '_includes/header.php' ?>
 		<script src="_js/indexheader.js" type="text/javascript"></script>
 		<?php include '_includes/footer.php' ?>

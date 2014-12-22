@@ -2,8 +2,6 @@
 // REQUIRED
 // DIT IS EEN TEST
 // test van imac naar macbook
-
-
 @import susy
 $total-columns: 12 // a 12-column grid
 $column-width: 5em // each column is 5em wide
@@ -15,7 +13,6 @@ $border-box-sizing: true
 @import variables
 @import mixins
 @import queries
-// @import mixins
 @import vac
 @import testimonials
 @import nav
@@ -63,7 +60,16 @@ a
 	box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5)
 	-moz-box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5)
 	opacity: 0.3
-
+	@media #{$mobile}
+		width: 40px
+		height: 40px
+		margin: 0px
+		padding: 0px
+		border-radius: 0px
+		background-color: $zwart_8
+		opacity: 1
+		border-bottom-right-radius: 10px
+		// position: inherit
 #home:hover
 	opacity: 1
 	cursor: pointer
@@ -89,8 +95,12 @@ a
 	box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5)
 	padding: 25px
 	text-align: left
-
-
+	@media #{$mobile}
+		width: 80%
+		margin-left: 5%
+		padding: 5%
+		margin-top: 20%
+		margin-bottom: 10px
 #content h1,
 #content2 h1
 	font-family: open-sans
@@ -160,6 +170,14 @@ a
 	margin-top: 15%
 	right: 30%
 	z-index: 1
+	@media #{$mobile}
+		// background-color: $zwart_8
+		width: 80%
+		right: 7.5%
+		margin-top: 20%
+		height: auto
+		padding: 0px
+		padding-left: 5%
 	#logo
 		width: 120px
 		height: 125px
@@ -168,6 +186,10 @@ a
 		background-repeat: no-repeat
 		background-size: 120%
 		background-position: center
+		@media #{$mobile}
+			width: 20%
+			// background-color: $turk_10
+			height: 60px
 	h1
 		color: $wit_8
 		font-size: 700%
@@ -175,6 +197,12 @@ a
 		float: left
 		width: 400px
 		margin: 20px 0 0 10px
+		@media #{$mobile}
+			position: relative
+			font-size: 350%
+			// background-color: $turk_5
+			width: 70%
+			margin-top: 7px
 	h2
 		text-transform: uppercase
 		color: $zwart_3
@@ -186,3 +214,14 @@ a
 		width: 530px
 		b
 			color: $zwart_10
+		@media #{$mobile}
+			position: relative
+			font-size: 80%
+			letter-spacing: 2.2pt
+			margin-top: 1px
+			margin-left: -10px
+			width: 100%
+
+#intro
+	@media #{$mobile}
+		visibility: hidden

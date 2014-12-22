@@ -1,17 +1,2 @@
-@mixin bp($device)
-
-	$bp-mobile: "(max-width: 400px)"
-	$bp-tablet: (max-width: 900px)
-	$bp-desktop: (min-width: 901px)
-
-	@if $device == desktop
-		@media screen and #{$bp-desktop}
-		@content
-
-	@else if $device == tablet
-		@media screen and #{$bp-tablet}
-		@content
-
-	@else if $device == mobile
-		@media screen and #{$bp-mobile}
-		@content
+$mobile: 'only screen and (max-device-width: 600px)'
+$desktop: (min-width: 1024px)
