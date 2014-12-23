@@ -1,4 +1,6 @@
 @import mixins
+@import queries
+@import variables
 
 #fix
 	position: fixed
@@ -14,6 +16,8 @@
 	text-align: center
 	z-index: -99
 	overflow: hidden
+	@media #{$mobile}
+		background-position: right
 #nofix1
 	position: inherit
 	width: 800px
@@ -25,6 +29,8 @@
 	background-size: 80%
 	bottom: 0
 	right: 100px
+	@media #{$mobile}
+		visibility: hidden
 #nofix2
 	position: inherit
 	width: 550px
@@ -36,6 +42,8 @@
 	background-size: 80%
 	bottom: 250px
 	right: 45+100px
+	@media #{$mobile}
+		visibility: hidden
 #nofix3
 	position: inherit
 	width: 480px
@@ -47,4 +55,6 @@
 	background-size: 80%
 	bottom: 460px
 	right: 70+100px
+	@media #{$mobile}
+		visibility: hidden
 

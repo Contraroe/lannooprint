@@ -1,3 +1,6 @@
+@import queries
+@import variables
+
 #fix
 	position: fixed
 	background-image: url(../_img/BG_app_2.jpg)
@@ -13,6 +16,8 @@
 	overflow: hidden
 	z-index: -98
 	overflow: hidden
+	@media #{$mobile}
+		background-position: -400px
 
 #nofix
 	position: absolute
@@ -30,3 +35,8 @@
 	z-index: -98
 	overflow: hidden
 	margin-right: 10%
+	@media #{$mobile}
+		top: 0
+		width: 450px
+		height: 300px
+		background-size: 120%

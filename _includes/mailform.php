@@ -1,5 +1,5 @@
 <div id="mailform">
-	<form autocomplete="off" id="form" method="post" action="php/mail.php" enctype="multipart/form-data">
+	<form autocomplete="off" id="form" method="post" action="_php/mail.php" enctype="multipart/form-data">
 
 		<div id="attachholder">
 			<input type="file" id="attach" name="uploaded_file">
@@ -17,7 +17,19 @@
 		<textarea name="message" id="message" rows="15" cols="40" required="Bericht" class="scroll-pane"></textarea><br>
 
 
-		<input type="submit" name="send" value="Send" class="submit-button" onmouseover="this.className='btn btnsubmit'" onmouseout="this.className='submit-button'" />
+		<input id="submit" type="submit" name="send" value="Send" class="submit-button" onmouseover="this.className='btn btnsubmit'" onmouseout="this.className='submit-button'" />
 		<input type="reset" name="clear" value="Clear" class="clear-button">
 	</form>
 </div>
+<script type="text/javascript">
+	$('#mailform').click (function(){
+		// var state=$("#mailform").attr("class");
+
+		
+		// if ( state === 'active' ) {
+			// $(this).removeClass("active");
+		// } else {
+			$(this).addClass("active");
+		// }
+	});
+</script>

@@ -398,6 +398,7 @@
 	@media #{$mobile}
 		height: auto
 		display: list-item
+		list-style: none
 		padding: 0px
 		margin: 0px
 		padding-top: 0px
@@ -413,17 +414,17 @@
 	z-index: 2
 	text-align: center
 	@media #{$mobile}
-		top: -120px
+		top: -135px
 		background-color: $none
 		box-shadow: 2px 2px 5px $none
 		padding-top: 0px
-		height: 120px
+		height: 135px
 		&:hover
-			top: -120px
+			top: -135px
 			background-color: $none
 			box-shadow: 2px 2px 5px $none
 			padding-top: 0px
-			height: 120px
+			height: 135px
 @media #{$mobile}
 	#item1,
 	#item2,
@@ -441,8 +442,8 @@
 		float: left
 		margin: 0px
 		padding: 0px
-		background-color: $turk_10
-		height: 40px
+		background-color: $zwart_8
+		height: 45px
 		box-shadow: inset 0px -2px 5px $zwart_4
 		p
 			margin-top: 0px
@@ -455,7 +456,9 @@
 			font-size: 110%
 		&:hover	
 			background-image: none
-			height: 40px
+			height: 45px
+		&:active
+			background-color: $turk_10
 	#item10
 		visibility: visible
 		margin-left: 33.3%
@@ -466,4 +469,6 @@
 		box-shadow: 2px 0px 5px $zwart_5
 		&:hover	
 			background-image: none
-			height: 40px
+			height: 45px
+		&:active
+			background-color: $zwart_8
