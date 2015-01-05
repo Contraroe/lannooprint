@@ -3,8 +3,7 @@
 
 // include '_php/error.php';
 
-// FACEBOOK
-// $facebook = json_decode(file_get_contents( 'https://graph.facebook.com/LannooPrinters'), true);
+$facebook = json_decode(file_get_contents( 'https://graph.facebook.com/LannooPrinters'), true);
 
 // TWITTER
 $twitter = json_decode(file_get_contents('https://cdn.syndication.twimg.com/widgets/followbutton/info.json?screen_names=Tw_Lannoo'), true);
@@ -23,7 +22,7 @@ $twitter = json_decode(file_get_contents('https://cdn.syndication.twimg.com/widg
 		</li>
 		<li class="facebook"><a  id="social"  class="popup" href="http://www.facebook.com/LannooPrinters" ></a></li>
 		<li class="facebook2 count ani">
-			<?php // echo $facebook['likes']; ?>
+			<?php echo $facebook['likes']; ?>
 		</li>
 		<li class="linked"><a id="social" class="popup" href="http://www.linkedin.com/LannooPrinters" ></a></li>
 	<!-- 	<li class="linked2 count ani">
@@ -54,16 +53,16 @@ $twitter = json_decode(file_get_contents('https://cdn.syndication.twimg.com/widg
 </div>
 
 <script type="text/javascript">
-	$('.ani').each(function () {
-		var $this = $(this);
-		jQuery({ Counter: 0 }).animate({ Counter: $this.text() }, {
-			duration: 1000,
-			easing: 'swing',
-			step: function () {
-				$this.text(Math.ceil(this.Counter));
-			}
+		$('.ani').each(function () {
+			var $this = $(this);
+			jQuery({ Counter: 0 }).animate({ Counter: $this.text() }, {
+				duration: 1000,
+				easing: 'swing',
+				step: function () {
+					$this.text(Math.ceil(this.Counter));
+				}
+			});
 		});
-	});
 </script>
 
 <!-- Subscription FORM nav Functions -->
