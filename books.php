@@ -10,7 +10,7 @@
 	<meta name="description" content="Drukkerij Lannoo is veel meer dan zomaar een drukkerij. Meer dan 100 jaar ervaring leert ons dat onze klanten meer verwachten dan enkel het ontwerpen en drukken van orders, we denken ook mee met onze klanten, bieden online diensten aan, maken tablet apps, doen aan database publishing, en zo veel meer. Sinds kort hebben we ook onze eigen Lannoo Paper Products. Dit is een selectie aan innovatieve producten ontworpen door onze Lannoo Studio.">
 	<meta name="keywords" content="Lannoo, drukkerij, tielt, print, printers, boeken, tijdschriften, commercieel, drukwerk, digitaal, oplage, groot, klein, database, online, tablet, app, afwerking, studio, ontwerp, prepress, premedia">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	
+
 	<link href="_css/global.css" rel="stylesheet" type="text/css" />
 	<link href="_css/normalize.css" rel="stylesheet" type="text/css" />
 	<link href="_css/ani_books.css" rel="stylesheet" type="text/css" />
@@ -31,7 +31,6 @@
 </head>
 
 <body>
-	<?php include '_php/error.php' ?>
 	<?php include '_includes/vac.php' ?>
 	<?php include '_includes/testimonials.php' ?>
 	<div id="home"></div>

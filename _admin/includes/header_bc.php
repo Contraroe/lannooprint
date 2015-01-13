@@ -1,3 +1,4 @@
+<?php include '../_php/error.php' ?>
 <div id="header_bc">
 	<h1>Lannoo <span>C-Panel</span></h1>
 	<ul>

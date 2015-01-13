@@ -1,4 +1,15 @@
 // MIXINS
+
+
+@mixin cover-img($img-uri)
+	background-image: url($img-uri)
+	background-position: center
+	background-repeat: no-repeat
+	-webkit-background-size: 80%
+	-moz-background-size: 80%
+	-o-background-size: 80%
+	background-size: 80%
+
 // Animations
 
 @-webkit-keyframes wiggle1
@@ -9,11 +20,11 @@
 	100%
 		-webkit-transform: rotate(1deg)
 @-webkit-keyframes wiggle2
-	0% 
+	0%
 		-webkit-transform: rotate(-10deg)
-	50% 
+	50%
 		-webkit-transform: rotate(-15deg)
-	100% 
+	100%
 		-webkit-transform: rotate(-10deg)
 
 @-moz-keyframes wiggle1
@@ -24,11 +35,11 @@
 	100%
 		-moz-transform: rotate(1deg)
 @-moz-keyframes wiggle2
-	0% 
+	0%
 		-moz-transform: rotate(-10deg)
-	50% 
+	50%
 		-moz-transform: rotate(-15deg)
-	100% 
+	100%
 		-moz-transform: rotate(-10deg)
 
 @-o-keyframes wiggle1
@@ -39,11 +50,11 @@
 	100%
 		-o-transform: rotate(1deg)
 @-o-keyframes wiggle2
-	0% 
+	0%
 		-o-transform: rotate(-10deg)
-	50% 
+	50%
 		-o-transform: rotate(-15deg)
-	100% 
+	100%
 		-o-transform: rotate(-10deg)
 
 @keyframes wiggle1
@@ -54,9 +65,9 @@
 	100%
 		transform: rotate(1deg)
 @keyframes wiggle2
-	0% 
+	0%
 		transform: rotate(-10deg)
-	50% 
+	50%
 		transform: rotate(-15deg)
-	100% 
+	100%
 		transform: rotate(-10deg)

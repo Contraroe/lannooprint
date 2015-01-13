@@ -1,7 +1,9 @@
 @import mixins
+@import queries
+@import variables
 
-#fix 
-	position: absolute
+#fix
+	position: fixed
 	background-image: url(../_img/BG_books.jpg)
 	background-repeat: no-repeat
 	background-position: center
@@ -14,10 +16,12 @@
 	text-align: center
 	z-index: -99
 	overflow: hidden
-#nofix1 
-	position: absolute
+	@media #{$mobile}
+		background-position: right
+#nofix1
+	position: inherit
 	width: 800px
-	height: 320px
+	min-height: 820px
 	margin-right: 0%
 	background-image: url(../_img/ani/cookie1.png)
 	background-repeat: no-repeat
@@ -25,8 +29,10 @@
 	background-size: 80%
 	bottom: 0
 	right: 100px
-#nofix2 
-	position: absolute
+	@media #{$mobile}
+		visibility: hidden
+#nofix2
+	position: inherit
 	width: 550px
 	height: 320px
 	margin-right: 0%
@@ -36,12 +42,10 @@
 	background-size: 80%
 	bottom: 250px
 	right: 45+100px
-	-webkit-animation-name: wiggle1
-	-webkit-animation-iteration-count: infinite
-	-webkit-animation-timing-function: ease-in-out
-	-webkit-animation-duration: 5s
-#nofix3 
-	position: absolute
+	@media #{$mobile}
+		visibility: hidden
+#nofix3
+	position: inherit
 	width: 480px
 	height: 320px
 	margin-right: 0%
@@ -51,7 +55,6 @@
 	background-size: 80%
 	bottom: 460px
 	right: 70+100px
-	-webkit-animation-name: wiggle2
-	-webkit-animation-iteration-count: infinite
-	-webkit-animation-timing-function: ease-in-out
-	-webkit-animation-duration: 5s
+	@media #{$mobile}
+		visibility: hidden
+

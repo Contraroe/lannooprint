@@ -1,28 +1,31 @@
 <div id="testimonials_bc">
 	<h1>Edit <span>Testimonials</span></h1>
-	<?php include '../_php/error.php' ?>
 	<?php include "../_php/db_config.php" ?>
 	<?php include "../_php/db_connect.php" ?>
 
 		<?php
-		$result=mysqli_query($connect,"
-		            SELECT *
-		            FROM 'testimonials'
-		            ORDER BY 'testimonials_date' DESC
-		        ");
-		        $numa=mysqli_num_rows($result);
-		        // mysql_close();
-		            if (!empty($numa)) {
-		?>
-		<?php
-		        $i=0;
-		        while ($i < $numa) {
-		            $f1=html_entity_decode(mysql_result($result,$i,"testimonials_id"));
-		            $f2=html_entity_decode(mysql_result($result,$i,"testimonials_klant"));
-		            $f3=html_entity_decode(mysql_result($result,$i,"testimonials_date"));
-		            $f4=html_entity_decode(mysql_result($result,$i,"testimonials_txt"));
-		            $f5=html_entity_decode(mysql_result($result,$i,"testimonials_active"));
-		           	$f6="testimonials";
+$result = mysqli_query($connect, "SELECT * 
+			FROM testimonials
+			ORDER BY testimonials_date 
+			DESC
+		");
+
+//		if (!$result) { die('Invalid query: Line 7' . mysql_error());};
+
+			$numa=mysqli_num_rows($result);
+			mysqli_close($connect);
+			if (!empty($numa)) {
+
+			$i=0;
+			while ($i < $numa) {
+				mysqli_data_seek($result,$i);
+				$row=mysqli_fetch_row($result);
+				$f1=html_entity_decode($row[0]);
+				$f2=html_entity_decode($row[1]);
+				$f3=html_entity_decode($row[2]);
+				$f4=html_entity_decode($row[3]);
+				$f5=html_entity_decode($row[4]);
+				$f6="testimonials";
 		?>
 
 			<div id="testimonials">
@@ -37,7 +40,7 @@
 
 	<?php
 		 $i++;
-		    }
+			}
 		}
 	?>
 </div>

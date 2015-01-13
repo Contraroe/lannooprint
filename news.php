@@ -12,7 +12,7 @@
 	<meta name="description" content="Lannoo Paper Products is een reeks exclusieve agenda's Skribi notebooks, bureauonderleggers, magneten,... Deze zijn reeds allemaal collector's items. U kunt al deze items bekijken en kopen op onze online Paper Products shop.">
 	<meta name="keywords" content="Lannoo, drukkerij, tielt, paper, products, agenda, notebook, notitieboek, magneet, kalender, studio, ontwerp, design, webshop, winkel, kopen">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	
+
 	<link href="_css/global.css" rel="stylesheet" type="text/css" />
 	<link href="_css/normalize.css" rel="stylesheet" type="text/css" />
 	<link href="_css/ani_news.css" rel="stylesheet" type="text/css" />
@@ -33,7 +33,6 @@
 </head>
 
 <body>
-	<?php include '_php/error.php' ?>
 	<?php include '_includes/vac.php' ?>
 	<?php include '_includes/testimonials.php' ?>
 	<div id="home"></div>
@@ -44,19 +43,24 @@
 		<div id="content">
 			<h1>Newsletters</h1>
 			<p>
-				<a href="http://www.lannooprint.be/nieuwsbrief/01_Juni" target="_blank"><b>Nieuwe CEO</b></a><br>
-				<a href="http://www.lannooprint.be/nieuwsbrief/03_Juli" target="_blank"><b>Omdat er een toekomst zou zijn!</b></a><br>
-				<a href="http://www.lannooprint.be/nieuwsbrief/05_Augustus" target="_blank"><b>Lannoo heeft alles in huis</b> </a>  <br />
-				<a href="http://www.lannooprint.be/nieuwsbrief/06_Paperproducts" target="_blank"><b>Love your customer</b> </a>  <br />
-				<a href="http://www.lannooprint.be/nieuwsbrief/07_Digitaal" target="_blank"><b>Digital printing</b> </a> <br />
-				<a href="http://www.lannooprint.be/nieuwsbrief/08_FreeYourself" target="_blank"><b>Free yourself from anonimity!</b> </a>
-			</p>
-			<h1>Downloads</h1>
-			<p>
-				<a href="http://www.lannoo-print.be/docs/LannooPaperProducts_largequantity.pdf" target="_blank"><b>Paper products large quantity catalog</b></a><br>
-				<a href="http://www.lannoo-print.be/docs/LannooPaperProducts.pdf" target="_blank"><b>Paper products small quantity catalog</b></a><br>
+				<a href="_nieuwsbrief/23_Orbo_LeverLannoo" target="_blank"><b>Drukkerij Lannooneemt Orbo Labels over</b></a><br>
+				<a href="_nieuwsbrief/20_Eindejaarspakket_2014" target="_blank"><b>Eindejaarspakket</b></a><br>
+				<a href="_nieuwsbrief/19_Love_Your_Customer" target="_blank"><b>Love your customer</b></a><br>
+				<a href="_nieuwsbrief/16_Schoolagendas" target="_blank"><b>Schoolagenda's</b></a><br>
+				<a href="_nieuwsbrief/03_Juli" target="_blank"><b>Omdat er een toekomst zou zijn!</b></a><br>
+				<a href="_nieuwsbrief/05_Augustus" target="_blank"><b>Lannoo heeft alles in huis</b> </a>  <br />
+				<a href="_nieuwsbrief/07_Digitaal" target="_blank"><b>Digital printing</b> </a> <br />
+				<a href="_nieuwsbrief/08_FreeYourself" target="_blank"><b>Free yourself from anonimity!</b> </a><br>
+				<a href="_nieuwsbrief/01_Juni" target="_blank"><b>Nieuwe CEO</b></a>
 			</p>
 		</div>
+<!-- 		<div id="content2">
+			<h1>Downloads</h1>
+			<p>
+				<a href="_dl/LannooPaperProducts_largequantity.pdf" target="_blank"><b>Paper products large quantity catalog</b></a><br>
+				<a href="_dl/LannooPaperProducts.pdf" target="_blank"><b>Paper products small quantity catalog</b></a><br>
+			</p>
+		</div> -->
 		<?php include '_includes/mailform.php' ?>
 		<script src="_js/indexheader.js" type="text/javascript"></script>
 		<?php include '_includes/footer.php' ?>

@@ -1,4 +1,3 @@
-<?php include '../../_php/error.php' ?>
 <?php include '../../_php/db_config.php' ?>
 <?php include '../../_php/db_connect.php' ?>
 <?php
@@ -9,7 +8,7 @@
 
 	$query=" DELETE FROM $db WHERE testimonials_id = '$id'";
 
-	mysql_query($query)  or die(mysql_error());
+	mysqli_query($connect, $query)  or die(mysql_error());
 	header ('Location: ../index.php');
 
 ?> 

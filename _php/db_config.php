@@ -5,15 +5,9 @@ $dbuser="drukkqf12_oc1";
 $dbpass="w8rsyn0y";
 $database="drukkqf12_oc1";
 
-// // PIETERDN_DB
-// $dbhost="pieterdn.be.mysql";
-// $dbuser="pieterdn_be";
-// $dbpass="iqmMAmWb";
-// $database="pieterdn_be";
-
-// // LOCAL_DB
+// Online LANNOO-PRINT
 // $dbhost="localhost";
-// $dbuser="root";
-// $dbpass="root";
-// $database="lannooprint";
+// $dbuser="drukkqf12_oc1";
+// $dbpass="w8rsyn0y";
+// $database="drukkqf12_oc1";
 ?>

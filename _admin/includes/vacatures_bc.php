@@ -1,28 +1,30 @@
 <div id="vacs_bc">
 	<h1>Edit <span>Vacatures</span></h1>
-	<?php include '../_php/error.php' ?>
 	<?php include "../_php/db_config.php" ?>
 	<?php include "../_php/db_connect.php" ?>
 
-		<?php
-		$result=mysqli_query($connect,"
-		            SELECT *
-		            FROM 'vacatures'
-		        ");
-		        $numa=mysqli_num_rows($result);
-		        // mysql_close();
-		            if (!empty($numa)) {
-		?>
-		<?php
-		        $i=0;
-		        while ($i < $numa) {
-		            $f1=html_entity_decode(mysql_result($result,$i,"vac_id"));
-		            $f2=html_entity_decode(mysql_result($result,$i,"vac_functie"));
-		            $f3=html_entity_decode(mysql_result($result,$i,"vac_spec"));
-		            $f4=html_entity_decode(mysql_result($result,$i,"vac_txt"));
-		            $f5=html_entity_decode(mysql_result($result,$i,"vac_active"));
-		            $f6="vacatures";
+	<?php
+		$result = mysqli_query($connect, "SELECT *
+			FROM vacatures
+	");
 
+	$data = mysqli_num_rows($result);
+	mysqli_close($connect);
+	if (!empty($data)) {
+
+	// Dbase Content 
+
+	$i=0;
+	while ($i < $data) {
+		mysqli_data_seek($result,$i);
+		$row=mysqli_fetch_row($result);
+		$f1=html_entity_decode($row[0]);
+		$f2=html_entity_decode($row[1]);
+		$f3=html_entity_decode($row[2]);
+		$f4=html_entity_decode($row[3]);
+		$f5=html_entity_decode($row[4]);
+		$f6=html_entity_decode($row[4]);
+		$f6="vacatures";
 		?>
 
 			<div id="vacatures">
@@ -37,7 +39,7 @@
 
 	<?php
 		 $i++;
-		    }
+			}
 		}
 	?>
 </div>

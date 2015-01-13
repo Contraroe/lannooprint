@@ -1,7 +1,6 @@
-<?php include '../../_php/error.php' ?>
-<?php include '../../_php/error.php' ?>
 <?php include '../../_php/db_config.php' ?>
 <?php include '../../_php/db_connect.php' ?>
+<?php include '../../_php/error.php' ?>
 <?php
 	//Get data in local variable
 	$customer=htmlentities(addslashes($_POST['customer']));
@@ -11,13 +10,13 @@
 
 
 	$query="
-	insert 
+	insert
 	into testimonials
-		(testimonials_klant,testimonials_date,testimonials_txt,testimonials_active) 
+		(testimonials_klant,testimonials_date,testimonials_txt,testimonials_active)
 	values
 		('$customer', '$date', '$testimonial', '$live')";
 
-	mysql_query($query)  or die(mysql_error());
+	mysqli_query($connect, $query)  or die(mysql_error());
 	header ('Location: ../index.php');
 
-?> 
+?>

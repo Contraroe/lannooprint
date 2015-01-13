@@ -1,6 +1,6 @@
-<?php include '../../_php/error.php' ?>
 <?php include '../../_php/db_config.php' ?>
 <?php include '../../_php/db_connect.php' ?>
+<?php include '../../_php/error.php' ?>
 <?php
 	//Get data in local variable
 	$function=htmlentities(addslashes($_POST['function']));
@@ -10,13 +10,13 @@
 
 
 	$query="
-	insert 
-	into 'vacatures'
-		(vac_functie,vac_spec,vac_txt,vac_active) 
+	insert
+	into vacatures
+		(vac_functie,vac_spec,vac_txt,vac_active)
 	values
 		('$function', '$spec', '$definition', '$live')";
 
-	mysqli_query($query)  or die(mysql_error());
+	mysqli_query($connect, $query)  or die(mysql_error());
 	header ('Location: ../index.php');
 
-?> 
+?>
