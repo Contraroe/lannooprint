@@ -4,7 +4,10 @@
 // include '_php/error.php';
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 // FACEBOOK
+=======
+>>>>>>> FETCH_HEAD
 =======
 >>>>>>> FETCH_HEAD
 $facebook = json_decode(file_get_contents( 'https://graph.facebook.com/LannooPrinters'), true);
