@@ -16,7 +16,7 @@
 	mysqli_close($connect);
 	if (!empty($data)) {
 
-	// Dbase Content 
+	// Dbase Content
 
 	$i=0;
 	while ($i < $data) {
@@ -29,7 +29,6 @@
 ?>
 
 <div id="vacs" class="job">
-
 	<a href="jobs.php?id=<?php echo htmlspecialchars($f1); ?>"><?php echo ($f2); ?><br>
 	<span id="spec"><?php echo htmlspecialchars($f3); ?></span></a>
 </div>
@@ -43,5 +42,5 @@
 </div>
 </div>
 <script type="text/javascript">
-//    $('.jobscont:not(:has(div.job))').hide();
+	$('.jobscont:not(:has(div.job))').hide();
 </script>

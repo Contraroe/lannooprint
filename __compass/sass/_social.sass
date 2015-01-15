@@ -59,10 +59,10 @@
 			cursor: auto
 			&:hover
 				background-color: $turk_10
-		#down
+		#digi
 			background-color: $zwart_8
 			margin-bottom: 0px
-			width: 60px
+			width: 130px
 			font-size: 100%
 			cursor: pointer
 			text-align: left
@@ -70,15 +70,19 @@
 			&:hover
 				background-color: $turk_10
 		#diaries
-			@extend #down
-			background-color: $turk_10
-			cursor: auto
+			display: block
+			@extend #digi
+			background-color: $zwart_8
+			cursor: pointer
+			width: 160px
+			&:hover
+				background-color: $turk_10
 		#subscribe
-			@extend #down
+			@extend #digi
 			width: 95px
 			margin-bottom: 0px
 		#goto
-			@extend #down
+			@extend #digi
 			width: 50px
 // Newsletter SUBSCRIBE FORM
 #subscribeform

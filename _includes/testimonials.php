@@ -8,21 +8,21 @@
 <?php include '_php/db_connect.php' ?>
 <?php
 
-	$result = mysqli_query($connect, "SELECT * 
-			FROM testimonials 
-			WHERE testimonials_active = 1 
-			ORDER BY testimonials_date 
+	$result = mysqli_query($connect, "SELECT *
+			FROM testimonials
+			WHERE testimonials_active = 1
+			ORDER BY testimonials_date
 			DESC
 		");
 		// if (!$result) { die('Invalid query: Line 12' . mysql_error());};
 
-		
+
 			$numa=mysqli_num_rows($result);
 			mysqli_close($connect);
 			if (!empty($numa)) {
 
 
-	// Dbase Content 
+	// Dbase Content
 
 		$i=0;
 		while ($i < $numa) {
@@ -54,6 +54,6 @@
    $('.testimonialscont:not(:has(div.test))').hide(function(){
          $("#vac_cont").animate({
             right:'0px'
-         });   
+         });
    });
 </script>
