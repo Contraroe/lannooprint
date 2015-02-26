@@ -61,7 +61,7 @@ $subject = "Lannoo online";
 $host = "ann.vandommele@lannooprint.be";
 
 $body = <<<EOD
-<img src="http://www.lannooprint.be/img/mail/header.png" alt="Lannoo-online" height="93" width="327">
+<img src="http://www.lannoo-print.be/_img/mail/header.png" alt="Lannoo-online" height="93" width="327">
 <br><br><br>
 $message<br><br><br>
 <strong>Naam:</strong> $name<br>
